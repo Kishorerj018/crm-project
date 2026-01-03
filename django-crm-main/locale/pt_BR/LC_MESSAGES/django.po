@@ -1,0 +1,3982 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-28 21:23+0200\n"
+"PO-Revision-Date: 2025-12-28 21:28+0200\n"
+"Last-Translator: Vadym Kharchenko <vadkhar@outlook.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.10.2\n"
+
+#: analytics/apps.py:10
+msgid "Analytics"
+msgstr "Análise"
+
+#: analytics/models.py:15
+msgid "IncomeStat Snapshot"
+msgstr "Snapshot do IncomeStat"
+
+#: analytics/models.py:16
+msgid "IncomeStat Snapshots"
+msgstr "Instantâneos do IncomeStat"
+
+#: analytics/models.py:28 analytics/models.py:29
+msgid "Sales Report"
+msgstr "Relatório de Vendas"
+
+#: analytics/models.py:36
+msgid "Request Summary"
+msgstr "Resumo do Pedido"
+
+#: analytics/models.py:37
+msgid "Requests Summary"
+msgstr "Resumo de Solicitações"
+
+#: analytics/models.py:44 analytics/models.py:45
+msgid "Lead source Summary"
+msgstr "Resumo da fonte de leads"
+
+#: analytics/models.py:52 analytics/models.py:53
+msgid "Closing reason Summary"
+msgstr "Resumo da Razão de Encerramento"
+
+#: analytics/models.py:60 analytics/models.py:61
+msgid "Deal Summary"
+msgstr "Resumo do Negócio"
+
+#: analytics/models.py:68 analytics/models.py:69
+#: analytics/site/incomestatadmin.py:48
+msgid "Income Summary"
+msgstr "Resumo de Receitas"
+
+#: analytics/models.py:76 analytics/models.py:77
+msgid "Sales funnel"
+msgstr "Funil de Vendas"
+
+#: analytics/models.py:84 analytics/models.py:85
+msgid "Conversion Summary"
+msgstr "Resumo da Conversão"
+
+#: analytics/site/anlmodeladmin.py:112 analytics/site/outputstatadmin.py:39
+#: crm/models/payment.py:112
+msgid "Payment date"
+msgstr "Data de pagamento"
+
+#: analytics/site/closingreasonstatadmin.py:15 crm/models/product.py:32
+#: crm/models/request.py:82
+msgid "Products"
+msgstr "Produtos"
+
+#: analytics/site/closingreasonstatadmin.py:63
+msgid "Closing reason over month"
+msgstr "Razões para o fechamento por mês"
+
+#: analytics/site/conversionadmin.py:13
+msgid "Conversion of requests into successful deals (for the last 365 days)"
+msgstr ""
+"Conversão de solicitações em negócios bem-sucedidos (nos últimos 365 dias)"
+
+#: analytics/site/conversionadmin.py:41
+msgid "Conversion of primary requests"
+msgstr "Conversão de solicitações primárias"
+
+#: analytics/site/conversionadmin.py:43
+msgid "Conversion"
+msgstr "Conversão"
+
+#: analytics/site/conversionadmin.py:45
+#: analytics/site/leadsourcestatadmin.py:21
+#: analytics/site/requeststatadmin.py:24 analytics/site/requeststatadmin.py:93
+msgid "Total requests"
+msgstr "Solicitações totais"
+
+#: analytics/site/conversionadmin.py:46
+msgid "Total primary requests"
+msgstr "Total de solicitações primárias"
+
+#: analytics/site/dealstatadmin.py:17
+msgid "Deal Summary for last 365 days"
+msgstr "Resumo de Negócios dos últimos 365 dias"
+
+#: analytics/site/dealstatadmin.py:44 analytics/site/dealstatadmin.py:49
+msgid "Total deals"
+msgstr "Total de negócios"
+
+#: analytics/site/dealstatadmin.py:45 analytics/site/dealstatadmin.py:69
+msgid "Relevant deals"
+msgstr "Ofertas relevantes"
+
+#: analytics/site/dealstatadmin.py:46
+msgid "Closed successfully (primary)"
+msgstr "Fechados com sucesso (primários)"
+
+#: analytics/site/dealstatadmin.py:47
+msgid "Average days to close successfully (primary)"
+msgstr "Dias médios para fechamento bem-sucedido (primário)"
+
+#: analytics/site/dealstatadmin.py:60
+msgid "Irrelevant deals"
+msgstr "Ofertas irrelevantes"
+
+#: analytics/site/dealstatadmin.py:78
+msgid "Won deals"
+msgstr "Negócios ganhos"
+
+#: analytics/site/incomestatadmin.py:135
+msgid "The snapshot has been saved successfully."
+msgstr "O instantâneo foi salvo com sucesso."
+
+#: analytics/site/incomestatadmin.py:183
+msgid "Income monthly (total amount for the current period: {} {} ({}))"
+msgstr "Renda mensal (valor total para o período atual: {} {} ({}))"
+
+#: analytics/site/incomestatadmin.py:188
+msgid "Income monthly in the previous period"
+msgstr "Renda mensal no período anterior"
+
+#: analytics/site/incomestatadmin.py:193
+msgid "Payments received"
+msgstr "Pagamentos recebidos"
+
+#: analytics/site/incomestatadmin.py:207 crm/models/deal.py:70
+#: crm/models/payment.py:70 crm/site/paymentadmin.py:254
+msgid "Amount"
+msgstr "Valor"
+
+#: analytics/site/incomestatadmin.py:208 analytics/site/incomestatadmin.py:405
+msgid "Order"
+msgstr "Pedido"
+
+#: analytics/site/incomestatadmin.py:239
+msgid "Guaranteed income"
+msgstr "Renda garantida"
+
+#: analytics/site/incomestatadmin.py:246
+msgid "High probability income"
+msgstr "Renda com alta probabilidade"
+
+#: analytics/site/incomestatadmin.py:253
+msgid "Low probability income"
+msgstr "Renda com baixa probabilidade"
+
+#: analytics/site/incomestatadmin.py:295
+msgid "Income averaged over the year ({})."
+msgstr "Renda média anual ({})."
+
+#: analytics/site/incomestatadmin.py:307
+msgid "Total won deals"
+msgstr "Total de negócios fechados com sucesso"
+
+#: analytics/site/incomestatadmin.py:308
+msgid "Average won deals a month"
+msgstr "Média de negócios fechados por mês"
+
+#: analytics/site/incomestatadmin.py:309
+msgid "Average income amount a month"
+msgstr "Valor médio de renda por mês"
+
+#: analytics/site/incomestatadmin.py:451
+msgid "Total amount"
+msgstr "Valor total"
+
+#: analytics/site/leadsourcestatadmin.py:15
+#: analytics/site/requeststatadmin.py:18
+msgid "Request source statistics"
+msgstr "Estatísticas de origem dos pedidos"
+
+#: analytics/site/leadsourcestatadmin.py:16
+#: analytics/site/requeststatadmin.py:19
+msgid "Number of requests for each source"
+msgstr "Número de solicitações para cada fonte"
+
+#: analytics/site/leadsourcestatadmin.py:17
+#: analytics/site/requeststatadmin.py:20
+#: analytics/templates/admin/analytics/closingreasonstat/closingreasons_summary_change_list.html:18
+msgid "Requests over country"
+msgstr "Solicitações por país"
+
+#: analytics/site/leadsourcestatadmin.py:18
+#: analytics/site/requeststatadmin.py:21
+msgid "for all period"
+msgstr "por todo o período"
+
+#: analytics/site/leadsourcestatadmin.py:19
+#: analytics/site/requeststatadmin.py:22
+msgid "for last 365 days"
+msgstr "nos últimos 365 dias"
+
+#: analytics/site/leadsourcestatadmin.py:20
+#: analytics/site/requeststatadmin.py:23
+msgid "conversion"
+msgstr "conversão"
+
+#: analytics/site/leadsourcestatadmin.py:22
+#: analytics/site/requeststatadmin.py:25
+msgid "Not specified"
+msgstr "Não especificado"
+
+#: analytics/site/leadsourcestatadmin.py:116
+msgid "Relevant requests over month"
+msgstr "Solicitações relevantes por mês"
+
+#: analytics/site/outputstatadmin.py:40 crm/models/output.py:52
+#: crm/site/shipmentadmin.py:36
+msgid "pcs"
+msgstr "unids."
+
+#: analytics/site/outputstatadmin.py:45 crm/models/base_contact.py:78
+#: crm/models/country.py:31 crm/models/country.py:49 crm/models/deal.py:110
+#: crm/models/request.py:86 crm/templates/crm/print_request.html:55
+#: crm/utils/admfilters.py:147
+msgid "Country"
+msgstr "País"
+
+#: analytics/site/outputstatadmin.py:49 analytics/site/outputstatadmin.py:77
+#: analytics/site/outputstatadmin.py:112 analytics/site/outputstatadmin.py:122
+#: crm/utils/admfilters.py:151 crm/utils/admfilters.py:178
+#: crm/utils/admfilters.py:343 crm/utils/admfilters.py:383
+#: crm/utils/admfilters.py:401 crm/utils/admfilters.py:458
+#: crm/utils/admfilters.py:508 crm/utils/admfilters.py:528
+#: crm/utils/admfilters.py:541 crm/utils/admfilters.py:555
+#: crm/utils/admfilters.py:574 crm/utils/admfilters.py:579
+#: tasks/utils/admfilters.py:31 tasks/utils/admfilters.py:37
+#: tasks/utils/admfilters.py:111 tasks/utils/admfilters.py:115
+#: tasks/utils/admfilters.py:119 tasks/utils/admfilters.py:156
+#: tasks/utils/admfilters.py:165 tasks/utils/admfilters.py:216
+msgid "All"
+msgstr "Tudo"
+
+#: analytics/site/outputstatadmin.py:107 chat/models.py:28 common/models.py:32
+#: common/models.py:185
+#: common/templates/common/notice_participants_email.html:15
+#: crm/templates/crm/change_owner_companies.html:26
+#: crm/utils/admfilters.py:378 voip/models.py:49
+msgid "Owner"
+msgstr "Proprietário"
+
+#: analytics/site/outputstatadmin.py:170 crm/models/output.py:20
+#: crm/models/product.py:31 crm/utils/admfilters.py:300
+msgid "Product"
+msgstr "Produto"
+
+#: analytics/site/outputstatadmin.py:200
+msgid "Sold products summary (by date of payment receipt)"
+msgstr "Resumo dos produtos vendidos (por data de recebimento do pagamento)"
+
+#: analytics/site/outputstatadmin.py:288
+msgid "Sold products"
+msgstr "Produtos Vendidos"
+
+#: analytics/site/outputstatadmin.py:294 crm/models/product.py:45
+msgid "Price"
+msgstr "Preço"
+
+#: analytics/site/requeststatadmin.py:56
+msgid "Request Summary for last 365 days"
+msgstr "Resumo das Solicitações dos últimos 365 dias"
+
+#: analytics/site/requeststatadmin.py:90
+msgid "Conversion of primary requests into successful deals"
+msgstr "Conversão de solicitações primárias em negócios bem-sucedidos"
+
+#: analytics/site/requeststatadmin.py:94
+msgid "Primary requests"
+msgstr "Solicitações primárias"
+
+#: analytics/site/requeststatadmin.py:96
+msgid "Subsequent requests"
+msgstr "Solicitações subsequentes"
+
+#: analytics/site/requeststatadmin.py:97
+msgid "Conversion of subsequent requests"
+msgstr "Conversão de solicitações subsequentes"
+
+#: analytics/site/requeststatadmin.py:100
+msgid "average monthly value"
+msgstr "valor médio mensal"
+
+#: analytics/site/requeststatadmin.py:101
+msgid "Requests by month"
+msgstr "Solicitações por mês"
+
+#: analytics/site/requeststatadmin.py:115
+msgid "Relevant requests"
+msgstr "Solicitações relevantes"
+
+#: analytics/site/salesfunnelsadmin.py:38
+msgid "Total closed deals"
+msgstr "Total de negócios fechados"
+
+#: analytics/templates/admin/analytics/closingreasonstat/closingreasons_summary_change_list.html:4
+msgid "Statistics on the Closing reason of deals for all the time"
+msgstr ""
+"Estatísticas sobre a Razão de Encerramento de Oportunidades em Todos os "
+"Tempos"
+
+#: analytics/templates/admin/analytics/closingreasonstat/closingreasons_summary_change_list.html:12
+msgid "total requests"
+msgstr "solicitações totais"
+
+#: analytics/templates/admin/analytics/incomestat/change_list_object_tools.html:9
+#: analytics/templates/admin/analytics/outputstat/change_list_object_tools.html:9
+msgid "Switch currency"
+msgstr "Mudar moeda"
+
+#: analytics/templates/admin/analytics/incomestat/change_list_object_tools.html:19
+msgid "Save snapshot"
+msgstr "Salvar instantâneo"
+
+#: analytics/templates/admin/analytics/salesfunnel/sales_funnel_change_list.html:4
+msgid "Sales funnel for last 365 days"
+msgstr "Funil de vendas dos últimos 365 dias"
+
+#: analytics/templates/admin/analytics/salesfunnel/sales_funnel_change_list.html:60
+#| msgid "The number of closed deals in stages"
+msgid "Number of deals closed/lost at each stage."
+msgstr "Número de negócios fechados/perdidos em cada etapa."
+
+#: analytics/templates/analytics/bar_chart.html:58
+#: analytics/templates/analytics/bar_chart_.html:51
+msgid "Charts"
+msgstr "Gráficos"
+
+#: analytics/templates/analytics/notice.html:2
+msgid ""
+"Note! The calculations use data for the whole year. But the charts begin on "
+"the first of the next month."
+msgstr ""
+"Atenção! Os cálculos utilizam dados de todo o ano. No entanto, os gráficos "
+"começam no primeiro dia do mês seguinte."
+
+#: analytics/templates/analytics/view_snapshots.html:8
+msgid "Data"
+msgstr "Dados"
+
+#: analytics/templates/analytics/view_snapshots.html:9
+msgid "Snapshots"
+msgstr "Instantâneos"
+
+#: analytics/templates/analytics/view_snapshots.html:9
+msgid "Now"
+msgstr "Agora"
+
+#: chat/apps.py:8 chat/templates/chat_buttons.html:9
+#: chat/templates/chat_buttons.html:13
+msgid "Chat"
+msgstr "Bate-papo"
+
+#: chat/forms/chatmessageform.py:29
+msgid "Please write a message"
+msgstr "Por favor, escreva uma mensagem."
+
+#: chat/forms/chatmessageform.py:35
+msgid "Please select at least one recipient"
+msgstr "Por favor, selecione pelo menos um destinatário"
+
+#: chat/models.py:15
+msgid "message"
+msgstr "mensagem"
+
+#: chat/models.py:16
+msgid "messages"
+msgstr "mensagens"
+
+#: chat/models.py:24 chat/templates/chat_buttons.html:3
+#: crm/forms/contact_form.py:32 massmail/models/mailing_out.py:37
+#: massmail/site/emlmessageadmin.py:134 massmail/site/mailingoutadmin.py:184
+msgid "Message"
+msgstr "Mensagem"
+
+#: chat/models.py:34
+msgid "answer to"
+msgstr "resposta para"
+
+#: chat/models.py:42 chat/site/chatmessageadmin.py:50
+msgid "recipients"
+msgstr "destinatários"
+
+#: chat/models.py:47
+msgid "to"
+msgstr "para"
+
+#: chat/models.py:52 common/models.py:24 common/models.py:179
+#: common/site/basemodeladmin.py:21 massmail/models/mailing_out.py:63
+msgid "Creation date"
+msgstr "Data de criação"
+
+#: chat/site/chatmessageadmin.py:53
+msgid "task operator"
+msgstr "operador de tarefa"
+
+#: chat/site/chatmessageadmin.py:54
+msgid "You received a message regarding - "
+msgstr "Você recebeu uma mensagem referente a -"
+
+#: chat/site/chatmessageadmin.py:128 crm/admin.py:113 crm/admin.py:184
+#: crm/admin.py:233 crm/admin.py:286 crm/admin.py:348
+#: crm/site/companyadmin.py:146 crm/site/contactadmin.py:133
+#: crm/site/dealadmin.py:327 crm/site/leadadmin.py:156
+#: crm/site/productadmin.py:18 crm/site/requestadmin.py:131
+#: crm/site/tagadmin.py:26 massmail/admin.py:36
+#: massmail/site/emlmessageadmin.py:78 massmail/site/signatureadmin.py:37
+#: tasks/admin.py:80 tasks/admin.py:133 tasks/site/memoadmin.py:190
+#: tasks/site/tasksbasemodeladmin.py:223
+msgid "Additional information"
+msgstr "Informações adicionais"
+
+#: chat/site/chatmessageadmin.py:141 massmail/models/mailing_out.py:44
+msgid "Recipients"
+msgstr "Destinatários"
+
+#: chat/site/chatmessageadmin.py:282
+#: chat/templates/chat/chatmessage_email.html:12
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:6
+#: crm/templates/admin/crm/inline_emails.html:36
+msgid "reply"
+msgstr "Responder"
+
+#: chat/site/chatmessageadmin.py:292
+msgid "Reply to"
+msgstr "Responder a"
+
+#: chat/templates/admin/chat/chatmessage/change_list_object_tools.html:13
+#: common/templates/common/copy_department.html:17
+#: common/templates/common/select_object.html:15
+#: common/templates/common/user_transfer.html:17
+#: crm/templates/admin/crm/change_form.html:21
+#: crm/templates/admin/crm/company/change_list_object_tools.html:8
+#: crm/templates/admin/crm/contact/change_list_object_tools.html:8
+#: crm/templates/admin/crm/crmemail/change_form.html:21
+#: crm/templates/admin/crm/crmemail/change_list_object_tools.html:8
+#: crm/templates/admin/crm/lead/change_list_object_tools.html:8
+#: crm/templates/admin/crm/request/change_list_object_tools.html:8
+#: crm/templates/crm/addfiles.html:15
+#: crm/templates/crm/change_owner_companies.html:15
+#: crm/templates/crm/import_objects.html:15
+#: crm/templates/crm/select_original_obj.html:27
+#: tasks/templates/admin/tasks/memo/change_list_object_tools.html:13
+#: tasks/templates/admin/tasks/task/change_list_object_tools.html:15
+#: templates/admin/auth/group/change_list_object_tools.html:8
+#: templates/admin/auth/user/change_list_object_tools.html:8
+#, python-format
+msgid "Add %(name)s"
+msgstr "Adicionar %(name)s"
+
+#: chat/templates/admin/chat/chatmessage/submit_line.html:4
+#: crm/templates/admin/crm/crmemail/submit_line.html:12
+#: crm/templates/crm/contact_form.html:44
+#: templates/admin/crm_date_filter.html:34
+msgid "Send"
+msgstr "Enviar"
+
+#: chat/templates/admin/chat/chatmessage/submit_line.html:7
+#: common/templates/admin/common/reminder/submit_line.html:8
+#: common/templates/admin/common/userprofile/submit_line.html:8
+#: crm/templates/admin/crm/city/submit_line.html:10
+#: crm/templates/admin/crm/company/submit_line.html:10
+#: crm/templates/admin/crm/contact/submit_line.html:9
+#: crm/templates/admin/crm/crmemail/submit_line.html:19
+#: crm/templates/admin/crm/deal/submit_line.html:9
+#: crm/templates/admin/crm/lead/submit_line.html:13
+#: crm/templates/admin/crm/payment/submit_line.html:9
+#: crm/templates/admin/crm/request/submit_line.html:9
+#: crm/templates/admin/crm/request/submit_line.html:18
+#: crm/templates/admin/crm/shipment/submit_line.html:9
+#: massmail/templates/admin/massmail/mailingout/submit_line.html:9
+#: tasks/templates/admin/tasks/memo/submit_line.html:12
+#: tasks/templates/admin/tasks/project/submit_line.html:9
+#: tasks/templates/admin/tasks/task/submit_line.html:17
+msgid "Close"
+msgstr "Fechar"
+
+#: chat/templates/admin/chat/chatmessage/submit_line.html:11
+#: common/templates/admin/common/reminder/submit_line.html:12
+#: common/templates/admin/common/userprofile/submit_line.html:12
+#: common/templates/common/select_emails.html:31
+#: common/templates/common/select_emails.html:73
+#: crm/templates/admin/crm/city/submit_line.html:14
+#: crm/templates/admin/crm/company/submit_line.html:14
+#: crm/templates/admin/crm/contact/submit_line.html:13
+#: crm/templates/admin/crm/crmemail/submit_line.html:23
+#: crm/templates/admin/crm/deal/submit_line.html:13
+#: crm/templates/admin/crm/lead/submit_line.html:17
+#: crm/templates/admin/crm/payment/submit_line.html:13
+#: crm/templates/admin/crm/request/submit_line.html:22
+#: crm/templates/admin/crm/shipment/submit_line.html:13
+#: massmail/templates/admin/massmail/mailingout/submit_line.html:13
+#: tasks/templates/admin/tasks/memo/submit_line.html:16
+#: tasks/templates/admin/tasks/project/submit_line.html:13
+#: tasks/templates/admin/tasks/task/submit_line.html:21
+msgid "Delete"
+msgstr "Excluir"
+
+#: chat/templates/chat/chatmessage_email.html:5
+#: common/templates/common/select_emails.html:43 crm/models/crmemail.py:21
+#: crm/templates/admin/crm/inline_emails.html:45
+msgid "From"
+msgstr "De"
+
+#: chat/templates/chat/chatmessage_email.html:7
+#: common/templates/common/notice_participants_email.html:6
+msgid "View in CRM"
+msgstr "Visualizar no CRM"
+
+#: chat/templates/chat_buttons.html:3
+msgid "Add chat message"
+msgstr "Adicionar mensagem no chat"
+
+#: chat/templates/chat_buttons.html:8
+msgid "There are unread messages"
+msgstr "Há mensagens não lidas"
+
+#: chat/templates/chat_buttons.html:12 common/site/userprofileadmin.py:23
+#: common/utils/chat_link.py:9 tasks/site/tasksbasemodeladmin.py:55
+msgid "View chat messages"
+msgstr "Visualizar mensagens do chat"
+
+#: common/admin.py:115
+msgid ""
+"You can specify the name of an existing file on the server along with the "
+"path instead of uploading it."
+msgstr ""
+"Você pode especificar o nome de um arquivo existente no servidor, incluindo "
+"o caminho, em vez de fazer o upload dele."
+
+#: common/admin.py:226
+msgid "staff"
+msgstr "funcionários"
+
+#: common/admin.py:232
+msgid "superuser"
+msgstr "superusuário"
+
+#: common/apps.py:9
+msgid "Common"
+msgstr "Comum"
+
+#: common/models.py:28 crm/models/payment.py:49
+msgid "Update date"
+msgstr "Data de atualização"
+
+#: common/models.py:38
+msgid "Modified By"
+msgstr "Modificado por"
+
+#: common/models.py:56
+msgid "was added successfully."
+msgstr "foi adicionado com sucesso."
+
+#: common/models.py:57
+msgid "Re-adding blocked."
+msgstr "Adição bloqueada novamente."
+
+#: common/models.py:75 common/models.py:118
+#: common/templates/common/copy_department.html:30
+#: common/templates/common/user_transfer.html:41 crm/utils/admfilters.py:325
+#: tasks/site/memoadmin.py:42
+msgid "Department"
+msgstr "Departamento"
+
+#: common/models.py:88 common/models.py:89 common/models.py:94
+msgid "Department and Owner do not match"
+msgstr "Departamento e Proprietário não correspondem."
+
+#: common/models.py:119
+msgid "Departments"
+msgstr "Departamentos"
+
+#: common/models.py:126
+msgid "Default country"
+msgstr "País padrão"
+
+#: common/models.py:133
+msgid "Default currency"
+msgstr "Moeda padrão"
+
+#: common/models.py:137
+msgid "Works globally"
+msgstr "Funciona globalmente"
+
+#: common/models.py:138
+msgid "The department operates in foreign markets."
+msgstr "O departamento atua em mercados estrangeiros."
+
+#: common/models.py:144
+msgid "Reminder"
+msgstr "Lembrete"
+
+#: common/models.py:145
+msgid "Reminders"
+msgstr "Lembretes"
+
+#: common/models.py:159 crm/forms/contact_form.py:20
+#: massmail/models/baseeml.py:16
+msgid "Subject"
+msgstr "Assunto"
+
+#: common/models.py:160
+msgid "Briefly, what is this reminder about?"
+msgstr "Resumidamente, sobre o que é esse lembrete?"
+
+#: common/models.py:164
+#: common/templates/common/notice_participants_email.html:14
+#: crm/models/base_contact.py:128 crm/models/deal.py:35
+#: crm/models/product.py:19 crm/models/product.py:41 crm/models/request.py:103
+#: tasks/models/memo.py:68 tasks/models/taskbase.py:38
+msgid "Description"
+msgstr "Descrição"
+
+#: common/models.py:167
+msgid "Reminder date"
+msgstr "Data do lembrete"
+
+#: common/models.py:171 crm/models/company.py:39 crm/models/deal.py:160
+#: crm/utils/admfilters.py:562 massmail/models/mailing_out.py:22
+#: massmail/utils/adminfilters.py:11 tasks/models/projectstage.py:14
+#: tasks/models/taskbase.py:86 tasks/models/taskstage.py:14
+#: tasks/utils/admfilters.py:209 voip/models.py:25
+msgid "Active"
+msgstr "Ativo"
+
+#: common/models.py:175
+msgid "Send notification email"
+msgstr "Enviar e-mail de notificação"
+
+#: common/models.py:195
+msgid "File"
+msgstr "Arquivo"
+
+#: common/models.py:196
+msgid "Files"
+msgstr "Arquivos"
+
+#: common/models.py:200
+msgid "Attached file"
+msgstr "Arquivo anexado"
+
+#: common/models.py:206
+msgid "Attach to the deal"
+msgstr "Anexar à negociação"
+
+#: common/models.py:228
+#: common/templates/common/notice_participants_email.html:12
+#: crm/models/deal.py:46 tasks/models/memo.py:99 tasks/models/project.py:17
+#: tasks/models/task.py:35
+msgid "Stage"
+msgstr "Estágio"
+
+#: common/models.py:229
+msgid "Stages"
+msgstr "Etapas"
+
+#: common/models.py:233 tasks/models/stagebase.py:14
+msgid "Default"
+msgstr "Padrão"
+
+#: common/models.py:234 tasks/models/stagebase.py:15
+msgid "Will be selected by default when creating a new task"
+msgstr "Será selecionado por padrão ao criar uma nova tarefa"
+
+#: common/models.py:239 tasks/models/stagebase.py:32
+msgid ""
+"The sequence number of the stage.         The indices of other instances "
+"will be sorted automatically."
+msgstr ""
+"O número de sequência da etapa. Os índices de outras instâncias serão "
+"ordenados automaticamente."
+
+#: common/models.py:250
+msgid "User profile"
+msgstr "Perfil do usuário"
+
+#: common/models.py:251
+msgid "User profiles"
+msgstr "Perfis de usuários"
+
+#: common/models.py:302 crm/models/base_contact.py:56 crm/models/company.py:45
+msgid "Phone"
+msgstr "Telefone"
+
+#: common/models.py:308
+msgid "UTC time zone"
+msgstr "Fuso horário UTC"
+
+#: common/models.py:312
+msgid "Activate this time zone"
+msgstr "Ativar este fuso horário"
+
+#: common/models.py:316
+msgid "Field for temporary storage of messages to the user"
+msgstr "Campo para armazenamento temporário de mensagens ao usuário"
+
+#: common/site/basemodeladmin.py:19 crm/models/base_contact.py:156
+#: crm/models/deal.py:169 crm/models/tag.py:10 tasks/models/memo.py:87
+#: tasks/models/tag.py:9 tasks/models/taskbase.py:100
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: common/site/basemodeladmin.py:20 crm/admin.py:99 crm/admin.py:173
+#: crm/admin.py:219 crm/admin.py:271 tasks/site/tasksbasemodeladmin.py:216
+msgid "Add tags"
+msgstr "Adicionar etiquetas"
+
+#: common/site/basemodeladmin.py:22
+msgid "Export selected objects"
+msgstr "Exportar objetos selecionados"
+
+#: common/site/basemodeladmin.py:23
+msgid "Next step deadline"
+msgstr "Prazo para a próxima etapa"
+
+#: common/site/basemodeladmin.py:87
+msgid "Filters may affect search results."
+msgstr "Os filtros podem afetar os resultados da pesquisa."
+
+#: common/site/basemodeladmin.py:103 common/site/userprofileadmin.py:99
+msgid "Act"
+msgstr "Ato"
+
+#: common/site/basemodeladmin.py:172 crm/models/deal.py:40
+#: tasks/models/taskbase.py:73
+msgid "Workflow"
+msgstr "Fluxo de trabalho"
+
+#: common/site/userprofileadmin.py:118 help/models.py:62 help/models.py:121
+msgid "Language"
+msgstr "Idioma"
+
+#: common/templates/admin/common/reminder/submit_line.html:4
+#: common/templates/admin/common/userprofile/submit_line.html:4
+#: crm/templates/admin/crm/city/submit_line.html:4
+#: crm/templates/admin/crm/company/submit_line.html:4
+#: crm/templates/admin/crm/contact/submit_line.html:4
+#: crm/templates/admin/crm/crmemail/submit_line.html:14
+#: crm/templates/admin/crm/deal/submit_line.html:4
+#: crm/templates/admin/crm/lead/submit_line.html:4
+#: crm/templates/admin/crm/payment/submit_line.html:4
+#: crm/templates/admin/crm/request/submit_line.html:4
+#: crm/templates/admin/crm/shipment/submit_line.html:4
+#: massmail/templates/admin/massmail/mailingout/submit_line.html:4
+#: tasks/templates/admin/tasks/memo/submit_line.html:8
+#: tasks/templates/admin/tasks/project/submit_line.html:4
+#: tasks/templates/admin/tasks/task/submit_line.html:13
+msgid "Save"
+msgstr "Salvar"
+
+#: common/templates/admin/common/reminder/submit_line.html:5
+#: common/templates/admin/common/userprofile/submit_line.html:5
+#: crm/templates/admin/crm/city/submit_line.html:7
+#: crm/templates/admin/crm/company/submit_line.html:7
+#: crm/templates/admin/crm/contact/submit_line.html:6
+#: crm/templates/admin/crm/crmemail/submit_line.html:16
+#: crm/templates/admin/crm/deal/submit_line.html:6
+#: crm/templates/admin/crm/lead/submit_line.html:7
+#: crm/templates/admin/crm/payment/submit_line.html:6
+#: crm/templates/admin/crm/request/submit_line.html:6
+#: crm/templates/admin/crm/shipment/submit_line.html:6
+#: massmail/templates/admin/massmail/mailingout/submit_line.html:6
+#: tasks/templates/admin/tasks/memo/submit_line.html:9
+#: tasks/templates/admin/tasks/project/submit_line.html:5
+#: tasks/templates/admin/tasks/task/submit_line.html:14
+msgid "Save and continue editing"
+msgstr "Salvar e continuar editando"
+
+#: common/templates/admin/common/reminder/submit_line.html:5
+#: common/templates/admin/common/userprofile/submit_line.html:5
+#: crm/templates/admin/crm/city/submit_line.html:7
+#: crm/templates/admin/crm/company/submit_line.html:7
+#: crm/templates/admin/crm/contact/submit_line.html:6
+#: crm/templates/admin/crm/crmemail/submit_line.html:16
+#: crm/templates/admin/crm/deal/submit_line.html:6
+#: crm/templates/admin/crm/lead/submit_line.html:7
+#: crm/templates/admin/crm/payment/submit_line.html:6
+#: crm/templates/admin/crm/request/submit_line.html:6
+#: crm/templates/admin/crm/shipment/submit_line.html:6
+#: massmail/templates/admin/massmail/mailingout/submit_line.html:6
+#: tasks/templates/admin/tasks/memo/submit_line.html:9
+#: tasks/templates/admin/tasks/project/submit_line.html:5
+#: tasks/templates/admin/tasks/task/submit_line.html:14
+msgid "Save and view"
+msgstr "Salvar e visualizar"
+
+#: common/templates/admin/common/userprofile/change_form_object_tools.html:6
+#: crm/templates/admin/crm/company/change_form_object_tools.html:38
+#: crm/templates/admin/crm/contact/change_form_object_tools.html:32
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:50
+#: crm/templates/admin/crm/deal/change_form_object_tools.html:38
+#: crm/templates/admin/crm/lead/change_form_object_tools.html:23
+#: crm/templates/admin/crm/request/change_form_object_tools.html:38
+#: crm/templates/admin/crm/shipment/change_form_object_tools.html:12
+#: massmail/templates/admin/massmail/emailaccount/change_form_object_tools.html:8
+#: massmail/templates/admin/massmail/emlmessage/change_form_object_tools.html:18
+#: massmail/templates/admin/massmail/mailingout/change_form_object_tools.html:31
+#: massmail/templates/admin/massmail/signature/change_form_object_tools.html:6
+#: tasks/templates/admin/tasks/memo/change_form_object_tools.html:29
+#: tasks/templates/admin/tasks/project/change_form_object_tools.html:12
+#: tasks/templates/admin/tasks/task/change_form_object_tools.html:36
+msgid "History"
+msgstr "Histórico"
+
+#: common/templates/common/copy_department.html:13
+#: common/templates/common/select_emails.html:13
+#: common/templates/common/select_object.html:12
+#: common/templates/common/user_transfer.html:13
+#: crm/templates/admin/crm/change_form.html:18
+#: crm/templates/admin/crm/crmemail/change_form.html:18
+#: crm/templates/admin/crm/payment/change_list.html:31
+#: crm/templates/crm/addfiles.html:12
+#: crm/templates/crm/change_owner_companies.html:12
+#: crm/templates/crm/import_objects.html:12
+#: crm/templates/crm/make_massmail.html:15
+#: crm/templates/crm/select_original_obj.html:24 templates/admin/base.html:101
+msgid "Home"
+msgstr "Página Inicial"
+
+#: common/templates/common/copy_department.html:23
+msgid "Please select the department to copy."
+msgstr "Por favor, selecione o departamento para copiar."
+
+#: common/templates/common/copy_department.html:40
+#: common/templates/common/user_transfer.html:51
+#: crm/templates/crm/change_owner_companies.html:36
+#: crm/templates/crm/import_objects.html:31
+#: crm/templates/crm/select_original_obj.html:48
+#: massmail/templates/massmail/pic_upload.html:32
+#: voip/templates/voip/connection.html:23
+msgid "Submit"
+msgstr "Enviar"
+
+#: common/templates/common/email_notification_base.html:14
+#: tasks/models/taskbase.py:40
+msgid "Note"
+msgstr "Nota"
+
+#: common/templates/common/email_notification_base.html:24
+#: crm/templates/crm/email.html:29
+msgid "Attachments"
+msgstr "Anexos"
+
+#: common/templates/common/email_notification_base.html:28
+#: common/templates/common/widgets/clearable_file_input.html:7
+msgid "Download"
+msgstr "Baixar"
+
+#: common/templates/common/email_notification_base.html:30
+#: crm/templates/admin/crm/inline_emails.html:63
+msgid "Error: the file is missing."
+msgstr "Erro: o arquivo está faltando."
+
+#: common/templates/common/notice_participants_email.html:12
+#: tasks/models/taskbase.py:41 tasks/site/tasksbasemodeladmin.py:45
+msgid "Due date"
+msgstr "Data de vencimento"
+
+#: common/templates/common/notice_participants_email.html:12
+#: tasks/models/taskbase.py:26
+msgid "Priority"
+msgstr "Prioridade"
+
+#: common/templates/common/notice_participants_email.html:15
+#: crm/models/deal.py:183 crm/models/request.py:144
+#: massmail/models/email_account.py:110 tasks/models/taskbase.py:97
+msgid "Co-owner"
+msgstr "Coproprietário"
+
+#: common/templates/common/notice_participants_email.html:16
+#: crm/templates/crm/print_request.html:57 tasks/models/taskbase.py:49
+#: tasks/utils/admfilters.py:89
+msgid "Responsible"
+msgstr "Responsáveis"
+
+#: common/templates/common/reminder_button.html:4
+msgid "There are reminders"
+msgstr "Existem lembretes"
+
+#: common/templates/common/reminder_button.html:10
+msgid "Create a reminder"
+msgstr "Criar um lembrete"
+
+#: common/templates/common/reminder_message.html:4
+#: common/utils/reminders_sender.py:19
+msgid "Regarding"
+msgstr "A respeito de"
+
+#: common/templates/common/select_emails.html:30
+#: common/templates/common/select_emails.html:72
+#: crm/templates/admin/crm/company/change_list_object_tools.html:20
+#: crm/templates/admin/crm/contact/change_list_object_tools.html:20
+#: crm/templates/admin/crm/deal/change_form_object_tools.html:23
+#: crm/templates/admin/crm/lead/change_list_object_tools.html:13
+#: crm/templates/admin/crm/request/change_form_object_tools.html:28
+msgid "Import"
+msgstr "Importar"
+
+#: common/templates/common/select_emails.html:32
+#: common/templates/common/select_emails.html:74
+msgid "Spam"
+msgstr "Spam"
+
+#: common/templates/common/select_emails.html:33
+#: common/templates/common/select_emails.html:75
+msgid "Mark as read"
+msgstr "Marcar como lido"
+
+#: common/templates/common/select_emails.html:33
+#: common/templates/common/select_emails.html:75
+msgid "Mark as"
+msgstr "Marcar como"
+
+#: common/templates/common/select_emails.html:44 crm/models/crmemail.py:16
+#: crm/templates/admin/crm/inline_emails.html:48 tasks/utils/admfilters.py:152
+msgid "To"
+msgstr "Para"
+
+#: common/templates/common/select_emails.html:56
+msgid "This email is already imported."
+msgstr "Este e-mail já foi importado."
+
+#: common/templates/common/select_object.html:37
+msgid "Select"
+msgstr "Selecionar"
+
+#: common/templates/common/user_transfer.html:23
+msgid "Please select a user and a new department for him."
+msgstr "Por favor, selecione um usuário e um novo departamento para ele."
+
+#: common/templates/common/user_transfer.html:31
+msgid "User"
+msgstr "Usuário"
+
+#: common/templatetags/util.py:114
+msgid "Task completed"
+msgstr "Tarefa concluída"
+
+#: common/templatetags/util.py:115
+msgid "I completed the task"
+msgstr "Eu completei a tarefa"
+
+#: common/templatetags/util.py:118 tasks/site/taskadmin.py:372
+#: tasks/templates/admin/tasks/task/submit_line.html:4
+msgid "Completed"
+msgstr "Concluído"
+
+#: common/utils/for_translation.py:24
+msgid ""
+"The name has been added for translation. Please update po and mo files."
+msgstr ""
+"O nome foi adicionado para tradução. Por favor, atualize os arquivos po e "
+"mo."
+
+#: common/utils/helpers.py:27
+msgid "Copy"
+msgstr "Copiar"
+
+#: common/utils/helpers.py:32
+msgid ""
+"Attention! Mass mailings are not carried out on: Fridays, Saturdays and "
+"Sundays."
+msgstr ""
+"Atenção! Não realizamos envios em massa às: sextas, sábados e domingos."
+
+#: common/utils/helpers.py:34
+msgid "{} with ID '{}' doesn’t exist. Perhaps it was deleted?"
+msgstr "{} com ID '{}' não existe. Talvez tenha sido excluído?"
+
+#: common/utils/helpers.py:37
+msgid ""
+"\n"
+"Use HTML. To specify the address of the embedded image, use {% cid_media ‘path/to/pic.png' %}.<br>\n"
+"You can embed files uploaded to the CRM server in the ‘media/pics/’ folder.\n"
+msgstr ""
+"\n"
+"Use HTML. Para especificar o endereço da imagem incorporada, use {% cid_media ‘path/to/pic.png' %}.<br>\n"
+"Você pode incorporar arquivos enviados para o servidor CRM na pasta ‘media/pics/’.\n"
+
+#: common/utils/helpers.py:235
+msgid "sort by creation date"
+msgstr "classificar por data de criação"
+
+#: common/utils/helpers.py:237
+msgid "sort by next step date"
+msgstr "classificar pela data da próxima etapa"
+
+#: common/views/copy_department.py:48
+msgid "A new department has been created - {}. Please rename it."
+msgstr "Um novo departamento foi criado - {}. Por favor, renomeie-o."
+
+#: common/views/select_email_account.py:32
+msgid "Please select an Email account"
+msgstr "Por favor, selecione uma conta de e-mail"
+
+#: common/views/select_emails_import.py:118
+msgid ""
+"You do not have mail accounts marked for importing emails. Please contact "
+"your administrator."
+msgstr ""
+"Você não possui contas de e-mail marcadas para importação. Entre em contato "
+"com o administrador."
+
+#: common/views/user_transfer.py:28
+msgid ""
+"\n"
+"Attention! Data for filters such as: \n"
+"transaction stages, reasons for closing, tags, etc. \n"
+"will be transferred only if the new department has data with the same name.\n"
+"Also Output, Payment and Product will not be affected.\n"
+msgstr ""
+"\n"
+"Atenção! Dados para filtros como:\n"
+"estágios de transação, motivos de fechamento, tags, etc.\n"
+"serão transferidos somente se o novo departamento tiver dados com o mesmo nome.\n"
+"Além disso, Output, Payment e Product não serão afetados.\n"
+
+#: common/views/user_transfer.py:131
+msgid "User transferred successfully"
+msgstr "Usuário transferido com sucesso"
+
+#: crm/admin.py:103 crm/admin.py:275 crm/site/companyadmin.py:136
+#: crm/site/contactadmin.py:115
+msgid "Contact details"
+msgstr "Detalhes de contato"
+
+#: crm/admin.py:126 crm/models/country.py:15 crm/models/deal.py:18
+#: crm/models/product.py:15 crm/models/product.py:37
+#: crm/templates/crm/print_request.html:50 massmail/models/mailing_out.py:30
+#: settings/models.py:24 tasks/models/memo.py:27 tasks/models/resolution.py:13
+#: tasks/models/taskbase.py:32
+msgid "Name"
+msgstr "Nome"
+
+#: crm/admin.py:156 crm/site/dealadmin.py:298
+msgid "Contact info"
+msgstr "Informações de contato"
+
+#: crm/admin.py:177 crm/admin.py:339 crm/site/crmemailadmin.py:223
+#: crm/site/dealadmin.py:319 crm/site/requestadmin.py:122
+msgid "Relations"
+msgstr "Relações"
+
+#: crm/forms/admin_forms.py:24
+msgid "A country must be specified."
+msgstr "É necessário especificar um país."
+
+#: crm/forms/admin_forms.py:25
+msgid "Marketing currency already exists."
+msgstr "A moeda de marketing já existe."
+
+#: crm/forms/admin_forms.py:26
+msgid "State currency already exists."
+msgstr "A moeda estatal já existe."
+
+#: crm/forms/admin_forms.py:27
+msgid "Enter a valid alphabetic code."
+msgstr "Insira um código alfabético válido."
+
+#: crm/forms/admin_forms.py:28
+msgid "The currency cannot be both state and marketing."
+msgstr "A moeda não pode ser ao mesmo tempo estatal e de marketing."
+
+#: crm/forms/admin_forms.py:72
+msgid "Not allowed address"
+msgstr "Endereço não permitido"
+
+#: crm/forms/admin_forms.py:92
+msgid "City does not match the country"
+msgstr "A cidade não corresponde ao país"
+
+#: crm/forms/admin_forms.py:150
+msgid "Such an object already exists"
+msgstr "Tal objeto já existe"
+
+#: crm/forms/admin_forms.py:176
+msgid "Please fill in the field."
+msgstr "Por favor, preencha o campo."
+
+#: crm/forms/admin_forms.py:184
+msgid "To convert, please fill in the fields below."
+msgstr "Para converter, preencha os campos abaixo, por favor."
+
+#: crm/forms/admin_forms.py:219 crm/forms/admin_forms.py:220
+msgid "Specify the deal amount"
+msgstr "Especifique o valor do acordo"
+
+#: crm/forms/admin_forms.py:248
+msgid "Contact does not match the company"
+msgstr "O contato não corresponde à empresa"
+
+#: crm/forms/admin_forms.py:253
+msgid "Select only Contact or only Lead"
+msgstr "Selecione apenas Contato ou apenas Potencial Cliente"
+
+#: crm/forms/admin_forms.py:258
+msgid "Select only Company or only Lead"
+msgstr "Selecione apenas Empresa ou apenas Contato Potencial"
+
+#: crm/forms/admin_forms.py:340
+msgid "Such a tag already exists."
+msgstr "Essa tag já existe."
+
+#: crm/forms/contact_form.py:13
+msgid "Your name"
+msgstr "Seu nome"
+
+#: crm/forms/contact_form.py:17
+msgid "Your E-mail"
+msgstr "Seu E-mail"
+
+#: crm/forms/contact_form.py:24
+msgid "Phone number (with country code)"
+msgstr "Número de telefone (com código do país)"
+
+#: crm/forms/contact_form.py:28 crm/models/company.py:21 crm/models/lead.py:21
+#: crm/models/request.py:55
+msgid "Company name"
+msgstr "Nome da Empresa"
+
+#: crm/forms/contact_form.py:72
+msgid "Sorry, invalid reCAPTCHA. Please try again or send an email."
+msgstr ""
+"Desculpe, reCAPTCHA inválido. Por favor, tente novamente ou envie um e-mail."
+
+#: crm/models/base_contact.py:18 crm/models/request.py:29
+msgid "The name of the contact person (one word)."
+msgstr "Nome do contato (uma palavra)."
+
+#: crm/models/base_contact.py:19 crm/models/request.py:28
+msgid "First name"
+msgstr "Nome próprio"
+
+#: crm/models/base_contact.py:23 crm/models/request.py:33
+msgid "Middle name"
+msgstr "Segundo nome"
+
+#: crm/models/base_contact.py:24 crm/models/request.py:34
+msgid "The middle name of the contact person."
+msgstr "O segundo nome do contato."
+
+#: crm/models/base_contact.py:28 crm/models/request.py:39
+msgid "The last name of the contact person (one word)."
+msgstr "Sobrenome do contato (uma palavra)."
+
+#: crm/models/base_contact.py:29 crm/models/request.py:38
+msgid "Last name"
+msgstr "Sobrenome"
+
+#: crm/models/base_contact.py:33
+msgid "The title (position) of the contact person."
+msgstr "Título (cargo) do contato principal."
+
+#: crm/models/base_contact.py:34
+msgid "Title / Position"
+msgstr "Título/Cargo"
+
+#: crm/models/base_contact.py:44
+msgid "Sex"
+msgstr "Gênero"
+
+#: crm/models/base_contact.py:48
+msgid "Date of Birth"
+msgstr "Data de Nascimento"
+
+#: crm/models/base_contact.py:52
+msgid "Secondary email"
+msgstr "E-mail secundário"
+
+#: crm/models/base_contact.py:62
+msgid "Mobile phone"
+msgstr "Telefone celular"
+
+#: crm/models/base_contact.py:67 crm/models/company.py:57
+#: crm/models/country.py:43 crm/models/deal.py:101 crm/models/request.py:92
+#: crm/models/request.py:99 crm/utils/admfilters.py:35
+msgid "City"
+msgstr "Cidade"
+
+#: crm/models/base_contact.py:72
+msgid "Company city"
+msgstr "Cidade da empresa"
+
+#: crm/models/base_contact.py:73 crm/models/request.py:93
+msgid "Object of City in database"
+msgstr "Objeto da Cidade no banco de dados"
+
+#: crm/models/base_contact.py:111
+msgid "Address"
+msgstr "Endereço"
+
+#: crm/models/base_contact.py:117
+msgid "Region/State"
+msgstr "Região/Estado"
+
+#: crm/models/base_contact.py:123
+msgid "District/County"
+msgstr "Distrito/Condado"
+
+#: crm/models/base_contact.py:132 crm/models/lead.py:17
+#: crm/utils/admfilters.py:548
+msgid "Disqualified"
+msgstr "Desqualificado"
+
+#: crm/models/base_contact.py:139
+msgid "Use comma to separate Emails."
+msgstr "Utilize a vírgula para separar os E-mails."
+
+#: crm/models/base_contact.py:146 crm/models/others.py:63
+#: crm/models/request.py:51
+msgid "Lead Source"
+msgstr "Fonte de Lead"
+
+#: crm/models/base_contact.py:150
+msgid "Mass mailing"
+msgstr "Envio em massa de e-mails"
+
+#: crm/models/base_contact.py:151 crm/site/crmmodeladmin.py:75
+msgid "Mailing list recipient."
+msgstr "Destinatário da lista de correio."
+
+#: crm/models/base_contact.py:166
+msgid "Last contact date"
+msgstr "Data do último contato"
+
+#: crm/models/base_contact.py:173
+msgid "Assigned to"
+msgstr "Atribuído a"
+
+#: crm/models/company.py:13 crm/models/crmemail.py:59
+#: crm/templates/admin/crm/contact/change_form_object_tools.html:7
+#: crm/templates/crm/print_request.html:49
+msgid "Company"
+msgstr "Empresa"
+
+#: crm/models/company.py:14
+msgid "Companies"
+msgstr "Empresas"
+
+#: crm/models/company.py:27 crm/models/country.py:21
+msgid "Alternative names"
+msgstr "Nomes alternativos"
+
+#: crm/models/company.py:28 crm/models/country.py:22
+msgid "Separate them with commas."
+msgstr "Separe-os com vírgulas."
+
+#: crm/models/company.py:34
+msgid "Website"
+msgstr "Site da web"
+
+#: crm/models/company.py:51
+msgid "City name"
+msgstr "Nome da cidade"
+
+#: crm/models/company.py:64
+msgid "Registration number"
+msgstr "Número de registro"
+
+#: crm/models/company.py:65
+msgid "Registration number of Company"
+msgstr "Número de registro da Empresa"
+
+#: crm/models/company.py:72 crm/models/deal.py:109
+msgid "country"
+msgstr "país"
+
+#: crm/models/company.py:73
+msgid "Company Country"
+msgstr "País da Empresa"
+
+#: crm/models/company.py:80 crm/models/lead.py:44
+msgid "Type of company"
+msgstr "Tipo de empresa"
+
+#: crm/models/company.py:85 crm/models/lead.py:49
+msgid "Industry of company"
+msgstr "Indústria da empresa"
+
+#: crm/models/contact.py:12
+msgid "Contact person"
+msgstr "Pessoa de contato"
+
+#: crm/models/contact.py:13
+msgid "Contact persons"
+msgstr "Pessoas de contato"
+
+#: crm/models/contact.py:19 crm/models/deal.py:141 crm/models/lead.py:57
+#: crm/models/request.py:73
+msgid "Company of contact"
+msgstr "Empresa do contato"
+
+#: crm/models/country.py:6
+msgid "has already been assigned to the city"
+msgstr "já foi atribuído à cidade"
+
+#: crm/models/country.py:32 crm/utils/make_massmail_form.py:49
+msgid "Countries"
+msgstr "Países"
+
+#: crm/models/country.py:44
+msgid "Cities"
+msgstr "Cidades"
+
+#: crm/models/crmemail.py:11
+#: crm/templates/admin/crm/company/change_form_object_tools.html:4
+#: crm/templates/admin/crm/inline_emails.html:18
+#: crm/templates/admin/crm/request/change_form_object_tools.html:13
+msgid "Email"
+msgstr "E-mail"
+
+#: crm/models/crmemail.py:12
+msgid "Emails in CRM"
+msgstr "E-mails no CRM"
+
+#: crm/models/crmemail.py:17 crm/models/crmemail.py:26
+#: crm/models/crmemail.py:30
+msgid "You can specify multiple addresses, separated by commas"
+msgstr "Você pode especificar vários endereços, separados por vírgulas."
+
+#: crm/models/crmemail.py:22
+msgid "The Email address of sender"
+msgstr "Endereço de e-mail do remetente"
+
+#: crm/models/crmemail.py:38
+msgid "Request a read receipt"
+msgstr "Solicitar recibo de leitura"
+
+#: crm/models/crmemail.py:39
+msgid "Not supported by all mail services."
+msgstr "Não suportado por todos os serviços de e-mail."
+
+#: crm/models/crmemail.py:44 crm/models/deal.py:13 crm/models/request.py:77
+#: crm/site/shipmentadmin.py:275
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:27
+#: crm/templates/admin/crm/deal/change_list_object_tools.html:14
+#: crm/templates/admin/crm/request/change_form_object_tools.html:7
+#: tasks/models/memo.py:65
+msgid "Deal"
+msgstr "Negociação"
+
+#: crm/models/crmemail.py:49 crm/models/deal.py:117 crm/models/lead.py:12
+#: crm/models/request.py:64
+msgid "Lead"
+msgstr "Potencial Cliente"
+
+#: crm/models/crmemail.py:54 crm/models/deal.py:124 crm/models/lead.py:53
+#: crm/models/request.py:68
+#: crm/templates/admin/crm/company/change_form_object_tools.html:22
+msgid "Contact"
+msgstr "Contato"
+
+#: crm/models/crmemail.py:64 crm/models/deal.py:132 crm/models/request.py:19
+#: crm/site/requestadmin.py:536
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:31
+#: crm/templates/admin/crm/deal/change_list_object_tools.html:14
+msgid "Request"
+msgstr "Solicitação"
+
+#: crm/models/deal.py:14
+#: crm/templates/admin/crm/company/change_form_object_tools.html:18
+#: crm/templates/admin/crm/contact/change_form_object_tools.html:14
+#: crm/templates/admin/crm/deal/change_form_object_tools.html:31
+#: crm/templates/admin/crm/lead/change_form_object_tools.html:6
+msgid "Deals"
+msgstr "Ofertas"
+
+#: crm/models/deal.py:19
+msgid "Deal name"
+msgstr "Nome do Negócio"
+
+#: crm/models/deal.py:23 crm/models/deal.py:203 tasks/models/taskbase.py:77
+msgid "Next step"
+msgstr "Próximo passo"
+
+#: crm/models/deal.py:25 tasks/models/taskbase.py:78
+msgid "Describe briefly what needs to be done in the next step."
+msgstr "Descreva brevemente o que precisa ser feito no próximo passo."
+
+#: crm/models/deal.py:29 tasks/models/taskbase.py:81
+msgid "Step date"
+msgstr "Data do passo"
+
+#: crm/models/deal.py:30 tasks/models/taskbase.py:82
+msgid "Date to which the next step should be taken."
+msgstr "Data até a qual a próxima etapa deve ser realizada."
+
+#: crm/models/deal.py:51
+msgid "Dates of the stages"
+msgstr "Datas das etapas"
+
+#: crm/models/deal.py:52
+msgid "Dates of passing the stages"
+msgstr "Datas de conclusão das etapas"
+
+#: crm/models/deal.py:57
+msgid "Date of deal closing"
+msgstr "Data do fechamento do acordo"
+
+#: crm/models/deal.py:62
+msgid "Date of won deal closing"
+msgstr "Data de fechamento da negociação vencida"
+
+#: crm/models/deal.py:71
+msgid "Total deal amount without VAT"
+msgstr "Valor total do acordo sem IVA"
+
+#: crm/models/deal.py:78 crm/models/payment.py:16 crm/models/payment.py:77
+#: crm/models/product.py:49
+msgid "Currency"
+msgstr "Moeda"
+
+#: crm/models/deal.py:85 crm/models/others.py:101
+msgid "Closing reason"
+msgstr "Motivo do fechamento"
+
+#: crm/models/deal.py:90
+msgid "Probability (%)"
+msgstr "Probabilidade (%)"
+
+#: crm/models/deal.py:148
+msgid "Partner contact"
+msgstr "Contato do parceiro"
+
+#: crm/models/deal.py:151
+msgid "Contact person of dealer or distribution company"
+msgstr "Contato da empresa revendedora ou distribuidora"
+
+#: crm/models/deal.py:156
+msgid "Relevant"
+msgstr "Relevante"
+
+#: crm/models/deal.py:164 crm/utils/admfilters.py:522
+msgid "Important"
+msgstr "Importante"
+
+#: crm/models/deal.py:176 tasks/models/taskbase.py:90
+msgid "Remind me."
+msgstr "Lembre-me."
+
+#: crm/models/lead.py:13
+msgid "Leads"
+msgstr "Potenciais Clientes"
+
+#: crm/models/lead.py:29
+msgid "Company phone"
+msgstr "Telefone da empresa"
+
+#: crm/models/lead.py:33
+msgid "Company address"
+msgstr "Endereço da empresa"
+
+#: crm/models/lead.py:37
+msgid "Company email"
+msgstr "E-mail da empresa"
+
+#: crm/models/others.py:27
+msgid "Type of Clients"
+msgstr "Tipo de Clientes"
+
+#: crm/models/others.py:28
+msgid "Types of Clients"
+msgstr "Tipos de Clientes"
+
+#: crm/models/others.py:33
+msgid "Industry of Clients"
+msgstr "Indústria dos Clientes"
+
+#: crm/models/others.py:34
+msgid "Industries of Clients"
+msgstr "Indústrias dos Clientes"
+
+#: crm/models/others.py:42
+msgid "Second default"
+msgstr "Segunda opção padrão"
+
+#: crm/models/others.py:43
+msgid "Will be selected next after the default stage."
+msgstr "Será selecionado a seguir após a etapa padrão."
+
+#: crm/models/others.py:47
+msgid "success stage"
+msgstr "etapa de sucesso"
+
+#: crm/models/others.py:51
+msgid "conditional success stage"
+msgstr "etapa de sucesso condicional"
+
+#: crm/models/others.py:52
+msgid "For example, receiving the first payment"
+msgstr "Por exemplo, recebendo o primeiro pagamento"
+
+#: crm/models/others.py:56
+msgid "goods shipped"
+msgstr "mercadorias enviadas"
+
+#: crm/models/others.py:57
+msgid "Have the goods been shipped at this stage already?"
+msgstr "Os bens já foram enviados nesta etapa?"
+
+#: crm/models/others.py:64
+msgid "Lead Sources"
+msgstr "Fontes de Leads"
+
+#: crm/models/others.py:76
+msgid "form template name"
+msgstr "nome do modelo de formulário"
+
+#: crm/models/others.py:77 crm/models/others.py:82
+msgid "The name of the html template file if needed."
+msgstr "O nome do arquivo de modelo HTML, se necessário."
+
+#: crm/models/others.py:81
+msgid "success page template name"
+msgstr "nome do modelo da página de sucesso"
+
+#: crm/models/others.py:90
+msgid ""
+"Reason rating.         The indices of other instances will be sorted "
+"automatically."
+msgstr ""
+"Classificação da razão. Os índices de outras instâncias serão ordenados "
+"automaticamente."
+
+#: crm/models/others.py:95
+msgid "success reason"
+msgstr "razão do sucesso"
+
+#: crm/models/others.py:102
+msgid "Closing reasons"
+msgstr "Razões para o Encerramento"
+
+#: crm/models/output.py:10
+msgid "Output"
+msgstr "Saída"
+
+#: crm/models/output.py:11
+msgid "Outputs"
+msgstr "Saídas"
+
+#: crm/models/output.py:24
+msgid "Quantity"
+msgstr "Quantidade"
+
+#: crm/models/output.py:28
+msgid "Shipping date"
+msgstr "Data de envio"
+
+#: crm/models/output.py:29
+msgid "Shipment date as per contract"
+msgstr "Data de envio conforme o contrato"
+
+#: crm/models/output.py:33
+msgid "Planned shipping date"
+msgstr "Data prevista de envio"
+
+#: crm/models/output.py:37
+msgid "Actual shipping date"
+msgstr "Data real de envio"
+
+#: crm/models/output.py:38
+msgid "Date when the product was shipped"
+msgstr "Data de envio do produto"
+
+#: crm/models/output.py:42
+msgid "Shipped"
+msgstr "Enviado"
+
+#: crm/models/output.py:43
+msgid "Product is shipped"
+msgstr "Produto enviado"
+
+#: crm/models/output.py:47
+msgid "serial number"
+msgstr "número de série"
+
+#: crm/models/output.py:58
+msgid "Quantity is required."
+msgstr "O campo quantidade é obrigatório."
+
+#: crm/models/output.py:69
+msgid "Shipment"
+msgstr "Envio"
+
+#: crm/models/output.py:70
+msgid "Shipments"
+msgstr "Remessas"
+
+#: crm/models/payment.py:17
+msgid "Currencies"
+msgstr "Moedas"
+
+#: crm/models/payment.py:21
+msgid "Alphabetic Code for the Representation of Currencies."
+msgstr "Código Alfabético para Representação de Moedas."
+
+#: crm/models/payment.py:26 crm/models/payment.py:198
+msgid "Rate to state currency"
+msgstr "Taxa para a moeda do estado"
+
+#: crm/models/payment.py:27 crm/models/payment.py:33 crm/models/payment.py:199
+#: crm/models/payment.py:204
+msgid "Exchange rate against the state currency."
+msgstr "Taxa de câmbio em relação à moeda do estado."
+
+#: crm/models/payment.py:32 crm/models/payment.py:203
+msgid "Rate to marketing currency"
+msgstr "Taxa para a moeda de marketing"
+
+#: crm/models/payment.py:37
+msgid "Is it the state currency?"
+msgstr "Esta é a moeda do estado?"
+
+#: crm/models/payment.py:41
+msgid "Is it the marketing currency?"
+msgstr "É a moeda de marketing?"
+
+#: crm/models/payment.py:45
+msgid "This currency is subject to automatic updating."
+msgstr "Esta moeda está sujeita a atualização automática."
+
+#: crm/models/payment.py:71
+msgid "without VAT"
+msgstr "sem IVA"
+
+#: crm/models/payment.py:82
+msgid "Please specify a currency."
+msgstr "Por favor, especifique uma moeda."
+
+#: crm/models/payment.py:92
+msgid "Payment"
+msgstr "Pagamento"
+
+#: crm/models/payment.py:93
+msgid "Payments"
+msgstr "Pagamentos"
+
+#: crm/models/payment.py:100
+msgid "received"
+msgstr "recebido"
+
+#: crm/models/payment.py:101
+msgid "guaranteed"
+msgstr "garantido"
+
+#: crm/models/payment.py:102
+msgid "high probability"
+msgstr "alta probabilidade"
+
+#: crm/models/payment.py:103
+msgid "low probability"
+msgstr "baixa probabilidade"
+
+#: crm/models/payment.py:118
+msgid "Payment status"
+msgstr "Status do Pagamento"
+
+#: crm/models/payment.py:122 crm/site/shipmentadmin.py:251
+msgid "contract number"
+msgstr "número do contrato"
+
+#: crm/models/payment.py:126
+msgid "invoice number"
+msgstr "número da fatura"
+
+#: crm/models/payment.py:130
+msgid "order number"
+msgstr "número do pedido"
+
+#: crm/models/payment.py:134
+msgid "Payment through representative office"
+msgstr "Pagamento através do escritório de representação"
+
+#: crm/models/payment.py:157
+msgid "Payment share"
+msgstr "Participação no pagamento"
+
+#: crm/models/payment.py:177
+msgid "Currency rate"
+msgstr "Taxa de câmbio"
+
+#: crm/models/payment.py:178
+msgid "Currency rates"
+msgstr "Taxas de câmbio"
+
+#: crm/models/payment.py:183
+msgid "approximate currency rate"
+msgstr "taxa de câmbio aproximada"
+
+#: crm/models/payment.py:184
+msgid "official currency rate"
+msgstr "taxa oficial de câmbio"
+
+#: crm/models/payment.py:194
+msgid "Currency rate date"
+msgstr "Data da taxa de câmbio"
+
+#: crm/models/payment.py:210
+msgid "Exchange rate type"
+msgstr "Tipo de taxa de câmbio"
+
+#: crm/models/product.py:9 crm/models/product.py:69
+msgid "Product category"
+msgstr "Categoria do produto"
+
+#: crm/models/product.py:10
+msgid "Product categories"
+msgstr "Categorias de produtos"
+
+#: crm/models/product.py:55
+msgid "On sale"
+msgstr "À venda"
+
+#: crm/models/product.py:58
+msgid "Goods"
+msgstr "Mercadorias"
+
+#: crm/models/product.py:59
+msgid "Service"
+msgstr "Serviço"
+
+#: crm/models/product.py:64 voip/models.py:21
+msgid "Type"
+msgstr "Tipo"
+
+#: crm/models/request.py:20
+msgid "Requests"
+msgstr "Solicitações"
+
+#: crm/models/request.py:24 crm/templates/crm/print_request.html:32
+msgid "Request for"
+msgstr "Solicitação de"
+
+#: crm/models/request.py:50
+msgid "Lead source"
+msgstr "Fonte de lead"
+
+#: crm/models/request.py:59
+msgid "Date of receipt"
+msgstr "Data de recebimento"
+
+#: crm/models/request.py:60
+msgid "Date of receipt of the request."
+msgstr "Data de recebimento do pedido."
+
+#: crm/models/request.py:107 crm/site/dealadmin.py:686
+msgid "Translation"
+msgstr "Tradução"
+
+#: crm/models/request.py:111
+msgid "Remark"
+msgstr "Observação"
+
+#: crm/models/request.py:115
+msgid "Pending"
+msgstr "Pendente"
+
+#: crm/models/request.py:116
+msgid "Waiting for validation of fields filling"
+msgstr "Aguardando validação do preenchimento dos campos"
+
+#: crm/models/request.py:120
+msgid "Subsequent"
+msgstr "Subsequente"
+
+#: crm/models/request.py:122
+msgid "Received from the client with whom you are already cooperate"
+msgstr "Recebido do cliente com quem você já colabora"
+
+#: crm/models/request.py:126
+msgid "Duplicate"
+msgstr "Duplicado"
+
+#: crm/models/request.py:127
+msgid "Duplicate request. The deal will not be created."
+msgstr "Solicitação duplicada. A negociação não será criada."
+
+#: crm/models/request.py:131 help/models.py:130
+msgid "Verification required"
+msgstr "Verificação necessária"
+
+#: crm/models/request.py:132
+msgid "Links are set automatically and require verification."
+msgstr "Os links são configurados automaticamente e exigem verificação."
+
+#: crm/models/request.py:136
+msgid "Case/Incident"
+msgstr "Caso/Incidente"
+
+#: crm/models/request.py:137
+msgid "A request that does not involve payment"
+msgstr "Uma solicitação que não envolve pagamento."
+
+#: crm/models/request.py:153 crm/models/request.py:154
+msgid "Company and contact person do not match."
+msgstr "A empresa e o contato não correspondem."
+
+#: crm/models/request.py:158 crm/models/request.py:159
+msgid "Specify the contact person or lead. But not both."
+msgstr "Especifique o contato ou o potencial cliente. Mas não ambos."
+
+#: crm/models/tag.py:9 crm/utils/admfilters.py:266 tasks/models/tag.py:8
+msgid "Tag"
+msgstr "Rótulo"
+
+#: crm/models/tag.py:14 tasks/models/tag.py:12
+msgid "Tag name"
+msgstr "Nome da etiqueta"
+
+#: crm/models/to_translate.txt:2 massmail/models/to_translate.txt:2
+msgid "competitor"
+msgstr "concorrente"
+
+#: crm/models/to_translate.txt:3
+msgid "end customer"
+msgstr "cliente final"
+
+#: crm/models/to_translate.txt:4
+msgid "reseller"
+msgstr "revendedor"
+
+#: crm/models/to_translate.txt:5
+msgid "dealer"
+msgstr "revendedor"
+
+#: crm/models/to_translate.txt:6 crm/models/to_translate.txt:37
+msgid "distributor"
+msgstr "distribuidor"
+
+#: crm/models/to_translate.txt:7
+msgid "educational institutions"
+msgstr "instituições de ensino"
+
+#: crm/models/to_translate.txt:8
+msgid "service companies"
+msgstr "empresas de serviços"
+
+#: crm/models/to_translate.txt:9
+msgid "welders"
+msgstr "soldadores"
+
+#: crm/models/to_translate.txt:10
+msgid "capital construction"
+msgstr "construção de capital"
+
+#: crm/models/to_translate.txt:11
+msgid "automotive industry"
+msgstr "indústria automotiva"
+
+#: crm/models/to_translate.txt:12
+msgid "shipbuilding"
+msgstr "construção naval"
+
+#: crm/models/to_translate.txt:13
+msgid "metallurgy"
+msgstr "metalurgia"
+
+#: crm/models/to_translate.txt:14
+msgid "power generation"
+msgstr "geração de energia"
+
+#: crm/models/to_translate.txt:15
+msgid "pipelines"
+msgstr "canos de condução"
+
+#: crm/models/to_translate.txt:16
+msgid "pipe production"
+msgstr "produção de tubos"
+
+#: crm/models/to_translate.txt:17
+msgid "oil & gas"
+msgstr "óleo e gás"
+
+#: crm/models/to_translate.txt:18
+msgid "aviation"
+msgstr "aviação"
+
+#: crm/models/to_translate.txt:19
+msgid "railway"
+msgstr "ferrovia"
+
+#: crm/models/to_translate.txt:20
+msgid "mining"
+msgstr "mineração"
+
+#: crm/models/to_translate.txt:21
+msgid "request"
+msgstr "solicitação"
+
+#: crm/models/to_translate.txt:22
+msgid "analysis of request"
+msgstr "análise do pedido"
+
+#: crm/models/to_translate.txt:23
+msgid "clarification of the requirements"
+msgstr "esclarecimento dos requisitos"
+
+#: crm/models/to_translate.txt:24
+msgid "price offer"
+msgstr "oferta de preço"
+
+#: crm/models/to_translate.txt:25
+msgid "commercial proposal"
+msgstr "proposta comercial"
+
+#: crm/models/to_translate.txt:26
+msgid "technical and commercial offer"
+msgstr "proposta técnica e comercial"
+
+#: crm/models/to_translate.txt:27
+msgid "agreement"
+msgstr "acordo"
+
+#: crm/models/to_translate.txt:28
+msgid "invoice"
+msgstr "fatura"
+
+#: crm/models/to_translate.txt:29
+msgid "receiving the first payment"
+msgstr "recebimento do primeiro pagamento"
+
+#: crm/models/to_translate.txt:30 crm/site/shipmentadmin.py:39
+msgid "shipment"
+msgstr "envio"
+
+#: crm/models/to_translate.txt:31
+msgid "closed (successful)"
+msgstr "fechada (com sucesso)"
+
+#: crm/models/to_translate.txt:32
+msgid "The client is not responding"
+msgstr "O cliente não está respondendo"
+
+#: crm/models/to_translate.txt:33
+msgid "Specifications are not suitable"
+msgstr "As especificações não são adequadas"
+
+#: crm/models/to_translate.txt:34
+msgid "The deal was closed successfully"
+msgstr "O acordo foi fechado com sucesso."
+
+#: crm/models/to_translate.txt:35
+msgid "Purchase postponed"
+msgstr "Compra adiada"
+
+#: crm/models/to_translate.txt:36
+msgid "The price is not competitive"
+msgstr "O preço não é competitivo"
+
+#: crm/models/to_translate.txt:38
+msgid "website form"
+msgstr "formulário do site"
+
+#: crm/models/to_translate.txt:39
+msgid "website email"
+msgstr "e-mail do site"
+
+#: crm/models/to_translate.txt:40
+msgid "exhibition"
+msgstr "exposição"
+
+#: crm/settings.py:46
+msgid "Establish the first contact with the client."
+msgstr "Estabelecer o primeiro contato com o cliente."
+
+#: crm/site/companyadmin.py:27
+msgid ""
+"Attention! You can only view companies associated with your department."
+msgstr ""
+"Atenção! Você só pode visualizar empresas associadas ao seu departamento."
+
+#: crm/site/companyadmin.py:213 crm/site/leadadmin.py:264
+msgid "Warning:"
+msgstr "Aviso:"
+
+#: crm/site/companyadmin.py:215
+msgid "Owner will also be changed for contact persons."
+msgstr "O proprietário também será alterado para os contatos."
+
+#: crm/site/companyadmin.py:228
+msgid "Change owner of selected Companies"
+msgstr "Mudar o proprietário das Empresas selecionadas"
+
+#: crm/site/crmadminsite.py:22
+msgid "Your Excel file"
+msgstr "Seu arquivo Excel"
+
+#: crm/site/crmemailadmin.py:31 massmail/models/signature.py:13
+#: massmail/site/emlmessageadmin.py:138
+msgid "Signature"
+msgstr "Assinatura"
+
+#: crm/site/crmemailadmin.py:32
+msgid "Please note that this is a list of unsent emails."
+msgstr "Por favor, observe que esta é uma lista de e-mails não enviados."
+
+#: crm/site/crmemailadmin.py:144
+msgid "Emails in the CRM database."
+msgstr "E-mails no banco de dados do CRM."
+
+#: crm/site/crmemailadmin.py:358
+msgid ""
+"Attention! This deal involves a partner. Please ensure the recipient is "
+"correct."
+msgstr ""
+"Atenção! Esta oferta envolve um parceiro. Certifique-se de que o "
+"destinatário esteja correto."
+
+#: crm/site/crmemailadmin.py:362
+msgid "Box"
+msgstr "Caixa"
+
+#: crm/site/crmemailadmin.py:399 crm/templates/admin/crm/inline_emails.html:54
+msgid "Content"
+msgstr "Conteúdo"
+
+#: crm/site/crmemailadmin.py:409 massmail/models/baseeml.py:27
+msgid "Previous correspondence"
+msgstr "Correspondência anterior"
+
+#: crm/site/crmemailadmin.py:434 crm/utils/import_emails.py:192
+msgid "No subject"
+msgstr "Sem assunto"
+
+#: crm/site/crmmodeladmin.py:64
+msgid "View website in new tab"
+msgstr "Visualizar o site em uma nova aba"
+
+#: crm/site/crmmodeladmin.py:65
+msgid "Callback to smartphone"
+msgstr "Retorno de chamada para o smartphone"
+
+#: crm/site/crmmodeladmin.py:66
+msgid "Callback to your smartphone"
+msgstr "Retorno de chamada para o seu smartphone"
+
+#: crm/site/crmmodeladmin.py:68
+msgid "Viber chat"
+msgstr "Chat do Viber"
+
+#: crm/site/crmmodeladmin.py:69
+msgid "Chat or viber call"
+msgstr "Chat ou chamada no Viber"
+
+#: crm/site/crmmodeladmin.py:71
+msgid "WhatsApp chat"
+msgstr "Conversa do WhatsApp"
+
+#: crm/site/crmmodeladmin.py:72
+msgid "Chat or WhatsApp call"
+msgstr "Conversa por chat ou chamada no WhatsApp"
+
+#: crm/site/crmmodeladmin.py:77
+msgid "Signed up for email newsletters"
+msgstr "Inscrevendo-se na newsletter por e-mail"
+
+#: crm/site/crmmodeladmin.py:79
+msgid "Unsubscribed from email newsletters"
+msgstr "Cancelado a assinatura de boletins informativos por e-mail"
+
+#: crm/site/crmmodeladmin.py:81
+#| msgid "The client is not responding"
+msgid "The recipient has not received any mailings."
+msgstr "O destinatário não recebeu nenhuma correspondência."
+
+#: crm/site/crmmodeladmin.py:278
+msgid "Create Email"
+msgstr "Criar E-mail"
+
+#: crm/site/crmmodeladmin.py:370
+msgid "Messengers"
+msgstr "Mensageiros"
+
+#: crm/site/currencyadmin.py:35
+msgid "State currency must be specified."
+msgstr "A moeda nacional deve ser especificada."
+
+#: crm/site/currencyadmin.py:40
+msgid "Marketing currency must be specified."
+msgstr "A moeda de marketing deve ser especificada."
+
+#: crm/site/dealadmin.py:53
+msgid "Closing date"
+msgstr "Data de encerramento"
+
+#: crm/site/dealadmin.py:59
+msgid "View Contact in new tab"
+msgstr "Visualizar Contato em nova aba"
+
+#: crm/site/dealadmin.py:60
+msgid "View Company in new tab"
+msgstr "Visualizar Empresa em uma nova aba"
+
+#: crm/site/dealadmin.py:63
+msgid "Deal counter"
+msgstr "Contador de Ofertas"
+
+#: crm/site/dealadmin.py:64
+msgid "View Lead in new tab"
+msgstr "Visualizar Lead em uma nova aba"
+
+#: crm/site/dealadmin.py:65
+msgid "Unanswered email"
+msgstr "E-mail sem resposta"
+
+#: crm/site/dealadmin.py:69
+msgid "Unread chat message"
+msgstr "Mensagem não lida no chat"
+
+#: crm/site/dealadmin.py:72
+msgid "Payment received"
+msgstr "Pagamento recebido"
+
+#: crm/site/dealadmin.py:75
+msgid "Specify the date of shipment"
+msgstr "Especifique a data de envio"
+
+#: crm/site/dealadmin.py:78 crm/site/requestadmin.py:308
+msgid "Specify products"
+msgstr "Especifique os produtos"
+
+#: crm/site/dealadmin.py:81
+msgid "Expired shipment date"
+msgstr "Data de envio expirada"
+
+#: crm/site/dealadmin.py:88
+msgid "Relevant deal"
+msgstr "Negociação relevante"
+
+#: crm/site/dealadmin.py:160
+msgid "Deal with ID '{}' does not exist. Perhaps it was deleted?"
+msgstr "A negociação com o ID '{}' não existe. Talvez tenha sido excluída?"
+
+#: crm/site/dealadmin.py:272
+msgid "View the Request"
+msgstr "Visualizar o Pedido"
+
+#: crm/site/dealadmin.py:551
+msgid "Create Email to Contact"
+msgstr "Criar E-mail para Contato"
+
+#: crm/site/dealadmin.py:554
+msgid "Create Email to Lead"
+msgstr "Criar E-mail para Lead"
+
+#: crm/site/dealadmin.py:594
+msgid "Important deal"
+msgstr "Oferta importante"
+
+#: crm/site/dealadmin.py:618
+#, python-format
+msgid "I have been waiting for an answer to my request for %d days"
+msgstr "Estou aguardando uma resposta ao meu pedido há %d dias"
+
+#: crm/site/dealadmin.py:648
+msgid "Expected"
+msgstr "Previsto"
+
+#: crm/site/dealadmin.py:656
+msgid "Paid"
+msgstr "Pago"
+
+#: crm/site/dealadmin.py:711
+msgid "Contact is Lead (no company)"
+msgstr "Contato é Lead (sem empresa)"
+
+#: crm/site/leadadmin.py:119
+msgid "Person contact details"
+msgstr "Detalhes de contato da pessoa"
+
+#: crm/site/leadadmin.py:128
+msgid "Additional person details"
+msgstr "Detalhes adicionais da pessoa"
+
+#: crm/site/leadadmin.py:140
+msgid "Company contact details"
+msgstr "Detalhes de contato da empresa"
+
+#: crm/site/leadadmin.py:251
+#, python-brace-format
+msgid "The lead \"{obj}\" has been converted successfully."
+msgstr "O lead \"{obj}\" foi convertido com sucesso."
+
+#: crm/site/leadadmin.py:266
+msgid "This Lead is disqualified! Please read the description."
+msgstr "Este Lead está desqualificado! Por favor, leia a descrição."
+
+#: crm/site/requestadmin.py:69
+msgid "Client Loyalty"
+msgstr "Lealdade do Cliente"
+
+#: crm/site/requestadmin.py:76
+msgid "Country not specified in request"
+msgstr "País não especificado no pedido"
+
+#: crm/site/requestadmin.py:77
+msgid "You received the deal"
+msgstr "Você recebeu a oferta"
+
+#: crm/site/requestadmin.py:78
+msgid "You are the co-owner of the deal"
+msgstr "Você é o co-proprietário do negócio."
+
+#: crm/site/requestadmin.py:85
+msgid "Primary request"
+msgstr "Solicitação primária"
+
+#: crm/site/requestadmin.py:86
+msgid "You are the co-owner of the request"
+msgstr "Você foi designado co-proprietário do novo pedido."
+
+#: crm/site/requestadmin.py:87
+msgid "You received the request"
+msgstr "Você recebeu o pedido"
+
+#: crm/site/requestadmin.py:88 tasks/models/memo.py:20
+#: tasks/models/to_translate.txt:2
+msgid "pending"
+msgstr "pendente"
+
+#: crm/site/requestadmin.py:89
+msgid "processed"
+msgstr "processado"
+
+#: crm/site/requestadmin.py:90 massmail/models/mailing_out.py:41
+#: massmail/utils/adminfilters.py:6 tasks/site/memoadmin.py:47
+msgid "Status"
+msgstr "Estado"
+
+#: crm/site/requestadmin.py:94
+msgid "Subsequent request"
+msgstr "Solicitação subsequente"
+
+#: crm/site/requestadmin.py:490
+msgid "Found the counterparty assigned to"
+msgstr "Encontrado o contraparte designado para"
+
+#: crm/site/requestadmin.py:589
+#, python-brace-format
+msgid "The {name} “{obj}” was added successfully."
+msgstr "O {name} \"{obj}\" foi adicionado com sucesso."
+
+#: crm/site/shipmentadmin.py:26
+msgid "actual"
+msgstr "real"
+
+#: crm/site/shipmentadmin.py:27
+msgid "Actual shipping date."
+msgstr "Data real de envio."
+
+#: crm/site/shipmentadmin.py:32
+msgid "Deal is paid."
+msgstr "O negócio foi pago."
+
+#: crm/site/shipmentadmin.py:33
+msgid "Next<br>payment"
+msgstr "Próximo<br>pagamento"
+
+#: crm/site/shipmentadmin.py:34
+msgid "order"
+msgstr "pedido"
+
+#: crm/site/shipmentadmin.py:37
+msgid "The product has not been shipped yet."
+msgstr "O produto ainda não foi enviado."
+
+#: crm/site/shipmentadmin.py:38
+msgid "The product has been shipped."
+msgstr "O produto foi enviado."
+
+#: crm/site/shipmentadmin.py:40
+msgid "Product shipment"
+msgstr "Envio do produto"
+
+#: crm/site/shipmentadmin.py:41
+msgid "to contract"
+msgstr "contratar"
+
+#: crm/site/shipmentadmin.py:42
+msgid "Date of shipment according to a contract."
+msgstr "Data de envio conforme o contrato."
+
+#: crm/site/shipmentadmin.py:47
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:27
+#: crm/templates/admin/crm/request/change_form_object_tools.html:5
+#: crm/templates/admin/crm/shipment/change_form_object_tools.html:6
+#: tasks/templates/admin/tasks/memo/change_form_object_tools.html:8
+msgid "View the deal"
+msgstr "Visualizar a negociação"
+
+#: crm/site/shipmentadmin.py:260
+msgid "paid"
+msgstr "pago"
+
+#: crm/templates/admin/crm/change_form.html:43
+#: crm/templates/admin/crm/crmemail/change_form.html:43
+#: crm/templates/admin/crm/payment/change_list.html:52
+msgid "Please correct the error below."
+msgstr "Por favor, corrija o erro abaixo."
+
+#: crm/templates/admin/crm/change_form.html:43
+#: crm/templates/admin/crm/crmemail/change_form.html:43
+#: crm/templates/admin/crm/payment/change_list.html:52
+msgid "Please correct the errors below."
+msgstr "Por favor, corrija os erros abaixo."
+
+#: crm/templates/admin/crm/city/submit_line.html:5
+#: crm/templates/admin/crm/company/submit_line.html:5
+#: crm/templates/admin/crm/contact/submit_line.html:5
+#: crm/templates/admin/crm/crmemail/submit_line.html:15
+#: crm/templates/admin/crm/deal/submit_line.html:5
+#: crm/templates/admin/crm/lead/submit_line.html:5
+#: crm/templates/admin/crm/payment/submit_line.html:5
+#: crm/templates/admin/crm/request/submit_line.html:5
+#: crm/templates/admin/crm/shipment/submit_line.html:5
+#: massmail/templates/admin/massmail/mailingout/submit_line.html:5
+msgid "Save as new"
+msgstr "Salvar como novo"
+
+#: crm/templates/admin/crm/city/submit_line.html:6
+#: crm/templates/admin/crm/company/submit_line.html:6
+msgid "Save and add another"
+msgstr "Salvar e adicionar outro"
+
+#: crm/templates/admin/crm/company/change_form_object_tools.html:9
+#: crm/templates/admin/crm/contact/change_form_object_tools.html:18
+msgid "Сorrespondence"
+msgstr "Correspondência"
+
+#: crm/templates/admin/crm/company/change_form_object_tools.html:27
+msgid "Contacts"
+msgstr "Contatos"
+
+#: crm/templates/admin/crm/company/change_form_object_tools.html:32
+#: crm/templates/admin/crm/contact/change_form_object_tools.html:26
+#: crm/templates/admin/crm/lead/change_form_object_tools.html:17
+msgid "Got massmails"
+msgstr "E-mails em massa recebidos"
+
+#: crm/templates/admin/crm/company/change_form_object_tools.html:33
+#: crm/templates/admin/crm/contact/change_form_object_tools.html:27
+#: crm/templates/admin/crm/lead/change_form_object_tools.html:18
+msgid "Massmails"
+msgstr "Mails em massa"
+
+#: crm/templates/admin/crm/company/change_form_object_tools.html:40
+#: crm/templates/admin/crm/contact/change_form_object_tools.html:34
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:53
+#: help/templates/admin/help/page/change_form_object_tools.html:3
+msgid "Open in Admin"
+msgstr "Abrir no Administrador"
+
+#: crm/templates/admin/crm/company/change_list_object_tools.html:14
+#: crm/templates/admin/crm/contact/change_list_object_tools.html:14
+#: massmail/templates/admin/massmail/mailingout/change_list_object_tools.html:6
+msgid "Make Massmail"
+msgstr "Criar Email em Massa"
+
+#: crm/templates/admin/crm/company/change_list_object_tools.html:25
+#: crm/templates/admin/crm/contact/change_list_object_tools.html:25
+#: crm/templates/admin/crm/lead/change_list_object_tools.html:18
+msgid "Export all"
+msgstr "Exportar tudo"
+
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:9
+#: crm/templates/admin/crm/inline_emails.html:37
+msgid "reply all"
+msgstr "Responder a todos"
+
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:12
+#: crm/templates/admin/crm/inline_emails.html:38
+msgid "forward"
+msgstr "Encaminhar"
+
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:17
+msgid "View next email"
+msgstr "Visualizar próximo e-mail"
+
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:17
+msgid "Next"
+msgstr "Próximo"
+
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:22
+msgid "View previous email"
+msgstr "Visualizar e-mail anterior"
+
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:22
+msgid "Previous"
+msgstr "Anterior"
+
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:31
+msgid "View the request"
+msgstr "Visualizar o pedido"
+
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:36
+#: crm/templates/admin/crm/inline_emails.html:27
+msgid "View original email"
+msgstr "Visualizar e-mail original"
+
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:42
+#: crm/templates/admin/crm/inline_emails.html:32
+msgid "Download the original email as an EML file."
+msgstr "Baixar o e-mail original como arquivo EML."
+
+#: crm/templates/admin/crm/crmemail/change_form_object_tools.html:46
+#: crm/templates/admin/crm/inline_emails.html:39
+#: crm/templates/admin/crm/request/change_form_object_tools.html:33
+msgid "Print preview"
+msgstr "Pré-visualização de impressão"
+
+#: crm/templates/admin/crm/crmemail/stacked.html:12
+#: crm/templates/admin/crm/inline_emails.html:35
+#: help/templates/admin/help/stacked.html:16
+#: massmail/site/signatureadmin.py:31
+msgid "Change"
+msgstr "Alterar"
+
+#: crm/templates/admin/crm/crmemail/stacked.html:12
+#: help/templates/admin/help/stacked.html:16
+msgid "View"
+msgstr "Visualizar"
+
+#: crm/templates/admin/crm/crmemail/stacked.html:14
+#: help/templates/admin/help/stacked.html:18
+msgid "View on site"
+msgstr "Ver no site"
+
+#: crm/templates/admin/crm/crmemail/submit_line.html:6
+msgid "Reply"
+msgstr "Responder"
+
+#: crm/templates/admin/crm/crmemail/submit_line.html:7
+msgid "Reply all"
+msgstr "Responder a todos"
+
+#: crm/templates/admin/crm/crmemail/submit_line.html:8
+msgid "Forward"
+msgstr "Encaminar"
+
+#: crm/templates/admin/crm/deal/change_form_object_tools.html:5
+msgid "View office memos"
+msgstr "Visualizar memorandos internos"
+
+#: crm/templates/admin/crm/deal/change_form_object_tools.html:6
+msgid "Office memos"
+msgstr "Memorandos internos"
+
+#: crm/templates/admin/crm/deal/change_form_object_tools.html:9
+#: crm/templates/admin/crm/deal/change_list_object_tools.html:14
+msgid "Add"
+msgstr "Adicionar"
+
+#: crm/templates/admin/crm/deal/change_form_object_tools.html:9
+msgid "Office memo"
+msgstr "Memorando interno"
+
+#: crm/templates/admin/crm/deal/change_form_object_tools.html:14
+msgid "View the correspondence on this Deal"
+msgstr "Visualizar a correspondência sobre este Negócio"
+
+#: crm/templates/admin/crm/deal/change_form_object_tools.html:22
+msgid "Import Email regarding this Deal"
+msgstr "Importar E-mail Relacionado a Esta Negociação"
+
+#: crm/templates/admin/crm/deal/change_form_object_tools.html:29
+msgid "View Deals with this Company"
+msgstr "Visualizar Negócios com esta Empresa"
+
+#: crm/templates/admin/crm/deal/change_form_object_tools.html:38
+msgid "View the history of changes for this Deal"
+msgstr "Visualizar o histórico de alterações deste Negócio"
+
+#: crm/templates/admin/crm/deal/change_list_object_tools.html:13
+msgid "A deal is created based on a request"
+msgstr "Um negócio é criado com base em uma solicitação"
+
+#: crm/templates/admin/crm/inline_emails.html:6
+msgid "Last few letters"
+msgstr "Últimas poucas letras"
+
+#: crm/templates/admin/crm/inline_emails.html:51
+msgid "Date"
+msgstr "Data"
+
+#: crm/templates/admin/crm/inline_emails.html:61
+msgid "View or Download"
+msgstr "Visualizar ou Baixar"
+
+#: crm/templates/admin/crm/lead/change_form_object_tools.html:10
+#: crm/templates/admin/crm/request/change_form_object_tools.html:19
+#| msgid "Сorrespondence"
+msgid "View correspondence"
+msgstr "Ver correspondência"
+
+#: crm/templates/admin/crm/lead/submit_line.html:9
+msgid "Convert"
+msgstr "Converter"
+
+#: crm/templates/admin/crm/payment/change_list.html:41
+msgid "Total sum"
+msgstr "Valor total"
+
+#: crm/templates/admin/crm/payment/change_list.html:41
+msgid "with VAT"
+msgstr "com IVA"
+
+#: crm/templates/admin/crm/payment/change_list.html:63
+msgid "Filter"
+msgstr "Filtro"
+
+#: crm/templates/admin/crm/request/change_form_object_tools.html:27
+msgid "Import Email regarding this Request"
+msgstr "Importar E-mail sobre este Pedido"
+
+#: crm/templates/admin/crm/request/change_list_object_tools.html:12
+msgid "Create a request based on an email."
+msgstr "Criar um pedido com base em um e-mail."
+
+#: crm/templates/admin/crm/request/change_list_object_tools.html:13
+msgid "Import request from"
+msgstr "Importar solicitação de"
+
+#: crm/templates/admin/crm/request/submit_line.html:11
+#| msgid "Active"
+msgid "Activate"
+msgstr "Ativar"
+
+#: crm/templates/admin/crm/request/submit_line.html:14
+msgid "Create deal"
+msgstr "Criar negócio"
+
+#: crm/templates/crm/addfiles.html:20
+msgid "Please select files to attach to the letter."
+msgstr "Por favor, selecione os arquivos que deseja anexar à carta."
+
+#: crm/templates/crm/change_owner_companies.html:20
+msgid ""
+"Please choose a new owner for selected Companies and their Contact persons"
+msgstr ""
+"Por favor, escolha um novo proprietário para as Empresas selecionadas e seus"
+" Contatos."
+
+#: crm/templates/crm/del_duplicate_button.html:5
+msgid "Correctly delete this object as a duplicate."
+msgstr "Exclua este objeto corretamente como duplicata."
+
+#: crm/templates/crm/filter_scroll.html:4
+#: templates/admin/crm_date_filter.html:7
+#, python-format
+msgid " By %(filter_title)s "
+msgstr "Por %(filter_title)s"
+
+#: crm/templates/crm/import_objects.html:20
+msgid "Please select a file to import."
+msgstr "Por favor, selecione um arquivo para importar."
+
+#: crm/templates/crm/import_objects.html:34
+msgid ""
+"Only the following columns will be imported if they exist (the order doesn't"
+" matter):"
+msgstr ""
+"Apenas as seguintes colunas serão importadas se existirem (a ordem não "
+"importa):"
+
+#: crm/templates/crm/make_massmail.html:22
+msgid "Make a choice"
+msgstr "Faça uma escolha"
+
+#: crm/templates/crm/print_email.html:5 crm/templates/crm/print_email.html:26
+#: crm/templates/crm/print_request.html:5
+#: crm/templates/crm/print_request.html:26
+msgid "Print"
+msgstr "Imprimir"
+
+#: crm/templates/crm/print_request.html:36
+msgid "Received"
+msgstr "Recebido"
+
+#: crm/templates/crm/print_request.html:37
+msgid "Prepared"
+msgstr "Preparado"
+
+#: crm/templates/crm/select_original_obj.html:32
+msgid "Select the original to which the linked objects will be reconnected."
+msgstr ""
+"Selecione o original ao qual os objetos vinculados serão reconectados."
+
+#: crm/utils/admfilters.py:84
+#| msgid "Status"
+msgid "VIP Status"
+msgstr "Status VIP"
+
+#: crm/utils/admfilters.py:89
+msgid "VIP"
+msgstr "VIP"
+
+#: crm/utils/admfilters.py:90
+msgid "Non-VIP"
+msgstr "Não-VIP"
+
+#: crm/utils/admfilters.py:222
+msgid "Last month"
+msgstr "Mês passado"
+
+#: crm/utils/admfilters.py:231
+msgid "First half of the year"
+msgstr "Primeira metade do ano"
+
+#: crm/utils/admfilters.py:240
+msgid "Nine months of this year"
+msgstr "Nove meses deste ano"
+
+#: crm/utils/admfilters.py:248
+msgid "Second half of the last year"
+msgstr "Segunda metade do ano passado"
+
+#: crm/utils/admfilters.py:453
+msgid "changed by chiefs"
+msgstr "alterado pelos chefes"
+
+#: crm/utils/admfilters.py:459 crm/utils/admfilters.py:509
+#: crm/utils/admfilters.py:529 crm/utils/admfilters.py:542
+#: crm/utils/admfilters.py:556 crm/utils/admfilters.py:575
+#: crm/utils/admfilters.py:580 tasks/utils/admfilters.py:217
+msgid "Yes"
+msgstr "Sim"
+
+#: crm/utils/admfilters.py:473
+msgid "Partner"
+msgstr "Parceiro"
+
+#: crm/utils/admfilters.py:490 crm/utils/admfilters.py:510
+#: crm/utils/admfilters.py:543 crm/utils/admfilters.py:557
+#: crm/utils/admfilters.py:576 crm/utils/admfilters.py:581
+#: tasks/utils/admfilters.py:218
+msgid "No"
+msgstr "Não"
+
+#: crm/utils/admfilters.py:534
+msgid "Has Contacts"
+msgstr "Tem Contatos"
+
+#: crm/utils/admfilters.py:600
+msgid "mailbox"
+msgstr "caixa de correio"
+
+#: crm/utils/admfilters.py:619
+msgid "inbox"
+msgstr "caixa de entrada"
+
+#: crm/utils/admfilters.py:620
+msgid "sent"
+msgstr "enviados"
+
+#: crm/utils/admfilters.py:621
+#, python-brace-format
+msgid "outbox ({num})"
+msgstr "caixa de saída ({num})"
+
+#: crm/utils/admfilters.py:622
+msgid "trash"
+msgstr "lixeira"
+
+#: crm/utils/helpers.py:30
+msgid "No deal amount"
+msgstr "Nenhum valor de acordo"
+
+#: crm/utils/helpers.py:31
+msgid "Unacceptable phone number value"
+msgstr "Valor de número de telefone inaceitável"
+
+#: crm/utils/helpers.py:32
+msgid "Counterparty"
+msgstr "Contraparte"
+
+#: crm/utils/make_massmail_form.py:28
+msgid ""
+"Error: The date you set as 'Created before' has to be later \n"
+"                than the date of 'Created after'."
+msgstr ""
+"Erro: A data que você definiu como 'Criado antes' deve ser posterior à data "
+"de 'Criado após'."
+
+#: crm/utils/make_massmail_form.py:42
+msgid "Industries"
+msgstr "Indústrias"
+
+#: crm/utils/make_massmail_form.py:56
+msgid "Types"
+msgstr "Tipos"
+
+#: crm/utils/make_massmail_form.py:61
+msgid "Created before"
+msgstr "Criado antes de"
+
+#: crm/utils/make_massmail_form.py:66
+msgid "Created after"
+msgstr "Criado após"
+
+#: crm/utils/restore_imap_emails.py:40
+#, python-format
+msgid "Received an email from \"%s\""
+msgstr "Recebido e-mail de \"%s\""
+
+#: crm/utils/send_email.py:22
+#, python-format
+msgid "The Email has been sent to \"%s\""
+msgstr "O e-mail foi enviado para \"%s\""
+
+#: crm/utils/send_email.py:30
+msgid "Please fill in the subject and text of the letter."
+msgstr "Por favor, preencha o assunto e o texto da carta."
+
+#: crm/utils/send_email.py:34
+msgid "To send a message you need to have an email account marked as main."
+msgstr ""
+"Para enviar uma mensagem, você precisa ter uma conta de e-mail marcada como "
+"principal."
+
+#: crm/utils/send_email.py:72
+#, python-format
+msgid "Failed: %s"
+msgstr "Falha: %s"
+
+#: crm/views/change_owner_companies.py:33
+msgid "Owner changed successfully"
+msgstr "Proprietário alterado com sucesso"
+
+#: crm/views/contact_form.py:39 tests/crm/views/test_request_receiving.py:276
+msgid "Dear {}, thanks for your request!"
+msgstr "Caro(a) {}, obrigado(a) pelo seu pedido!"
+
+#: crm/views/create_email.py:35
+msgid "No recipient"
+msgstr "Sem destinatário"
+
+#: crm/views/delete_duplicate_object.py:80
+msgid "The duplicate object has been correctly deleted."
+msgstr "O objeto duplicado foi excluído corretamente."
+
+#: crm/views/download_original_email.py:12 crm/views/view_original_email.py:22
+msgid "Not enough data to identify the email or email has been deleted"
+msgstr ""
+"Não há dados suficientes para identificar o e-mail ou o e-mail foi excluído."
+
+#: crm/views/reply_email.py:126
+msgid ""
+"You do not have an email account in CRM for sending Emails. Contact your "
+"administrator."
+msgstr ""
+"Você não possui uma conta de e-mail no CRM para enviar e-mails. Entre em "
+"contato com o administrador."
+
+#: crm/views/view_original_email.py:24
+msgid "Something went wrong"
+msgstr "Algo deu errado"
+
+#: help/admin.py:78
+msgid "To add the correct link, use the tag /SECRET_CRM_PREFIX/ if necessary"
+msgstr ""
+"Para adicionar o link correto, utilize a tag /SECRET_CRM_PREFIX/ se "
+"necessário."
+
+#: help/models.py:13
+msgid "list"
+msgstr "lista"
+
+#: help/models.py:14
+msgid "instance"
+msgstr "instância"
+
+#: help/models.py:24
+msgid "Help page"
+msgstr "Página de ajuda"
+
+#: help/models.py:25
+msgid "Help pages"
+msgstr "Páginas de ajuda"
+
+#: help/models.py:31
+msgid "app label"
+msgstr "rótulo do aplicativo"
+
+#: help/models.py:37
+msgid "model"
+msgstr "modelo"
+
+#: help/models.py:44
+msgid "page"
+msgstr "página"
+
+#: help/models.py:49 help/models.py:111
+msgid "Title"
+msgstr "Título"
+
+#: help/models.py:53
+msgid "Available on CRM page"
+msgstr "Disponível na página do CRM"
+
+#: help/models.py:55
+msgid ""
+"Available on one of CRM pages. Otherwise, it can only be accessed via a link"
+" from another help page."
+msgstr ""
+"Disponível em uma das páginas do CRM. Caso contrário, só pode ser acessado "
+"por meio de um link em outra página de ajuda."
+
+#: help/models.py:91
+msgid "Paragraph"
+msgstr "Parágrafo"
+
+#: help/models.py:92
+msgid "Paragraphs"
+msgstr "Parágrafos"
+
+#: help/models.py:102
+msgid "Groups"
+msgstr "Grupos"
+
+#: help/models.py:104
+msgid ""
+"If no user group is selected then the paragraph will be available only to "
+"the superuser."
+msgstr ""
+"Se nenhum grupo de usuários for selecionado, o parágrafo estará disponível "
+"apenas para o superusuário."
+
+#: help/models.py:110
+msgid "Title of paragraph."
+msgstr "Título do parágrafo."
+
+#: help/models.py:125 tasks/site/memoadmin.py:43
+msgid "draft"
+msgstr "rascunho"
+
+#: help/models.py:126
+msgid "Will not be published."
+msgstr "Não será publicado."
+
+#: help/models.py:131
+msgid "Content requires additional verification."
+msgstr "O conteúdo requer verificação adicional."
+
+#: help/models.py:136
+msgid "Index number"
+msgstr "Número de índice"
+
+#: help/models.py:137
+msgid "The sequence number of the paragraph on the page."
+msgstr "O número de sequência do parágrafo na página."
+
+#: help/models.py:143
+msgid "Link to a related paragraph if exists."
+msgstr "Link para o parágrafo relacionado, se existir."
+
+#: massmail/admin.py:30
+msgid "Service information"
+msgstr "Informações sobre o serviço"
+
+#: massmail/admin_actions.py:18
+msgid "Please select recipients only with the same owner."
+msgstr ""
+"Por favor, selecione apenas os destinatários com o mesmo proprietário."
+
+#: massmail/admin_actions.py:19
+msgid "Bad result - no recipients! Make another choice."
+msgstr "Resultado ruim - nenhum destinatário! Faça outra escolha."
+
+#: massmail/admin_actions.py:23
+msgid "Create a mailing out for selected objects"
+msgstr "Criar um envio de e-mail para objetos selecionados"
+
+#: massmail/admin_actions.py:35
+msgid "Unsubscribed users were excluded from the mailing list."
+msgstr "Usuários cancelados foram excluídos da lista de e-mails."
+
+#: massmail/admin_actions.py:63
+msgid "Merge selected mailing outs"
+msgstr "Mesclar envios de e-mails selecionados"
+
+#: massmail/admin_actions.py:83
+msgid "united"
+msgstr "unida"
+
+#: massmail/admin_actions.py:105
+msgid "Specify VIP recipients"
+msgstr "Especificar destinatários VIP"
+
+#: massmail/admin_actions.py:116
+msgid "Please first add your main email account."
+msgstr "Por favor, adicione primeiro a sua conta de e-mail principal."
+
+#: massmail/admin_actions.py:141
+msgid ""
+"The main email address has been successfully assigned to the selected "
+"recipients."
+msgstr ""
+"O endereço de e-mail principal foi atribuído com sucesso aos destinatários "
+"selecionados."
+
+#: massmail/admin_actions.py:146
+msgid "Remove the recipient's VIP status"
+msgstr "Remover o status VIP do destinatário"
+
+#: massmail/admin_actions.py:158
+#| msgid ""
+#| "The main email address has been successfully assigned to the selected "
+#| "recipients."
+msgid ""
+"The VIP status has been successfully removed from the selected recipients."
+msgstr "O status VIP foi removido com sucesso dos destinatários selecionados."
+
+#: massmail/admin_actions.py:164
+msgid "Please select mailings with only the same recipient type."
+msgstr ""
+"Por favor, selecione as campanhas de envio com o mesmo tipo de destinatário."
+
+#: massmail/admin_actions.py:169
+msgid "Please select only mailings with the same message."
+msgstr "Por favor, selecione apenas os envios com a mesma mensagem."
+
+#: massmail/admin_actions.py:198
+msgid ""
+"There are no mail accounts available for mailing. Please contact your "
+"administrator."
+msgstr ""
+"Não há contas de e-mail disponíveis para envio de mensagens. Entre em "
+"contato com o administrador do CRM."
+
+#: massmail/admin_actions.py:206
+msgid ""
+"There are no mail accounts available for mailing to non-VIP recipients. "
+"Please contact your administrator."
+msgstr ""
+"Não há contas de e-mail disponíveis para envio a destinatários não VIP. "
+"Entre em contato com o administrador do CRM."
+
+#: massmail/apps.py:8
+msgid "Mass mail"
+msgstr "Envio em massa de e-mails"
+
+#: massmail/models/baseeml.py:14
+msgid ""
+"The subject of the message. You can use {{first_name}}, {{last_name}}, "
+"{{first_middle_name}} or {{full_name}}"
+msgstr ""
+"O assunto da mensagem. Você pode utilizar {{first_name}}, {{last_name}}, "
+"{{first_middle_name}} ou {{full_name}}"
+
+#: massmail/models/baseeml.py:22
+msgid "Choose signature"
+msgstr "Escolha a assinatura"
+
+#: massmail/models/baseeml.py:23
+msgid "Sender's signature."
+msgstr "Assinatura do remetente."
+
+#: massmail/models/baseeml.py:28
+msgid "Previous correspondence. Will be added after signature"
+msgstr "Correspondência anterior. Será adicionada após a assinatura."
+
+#: massmail/models/email_account.py:15
+msgid "Email Account"
+msgstr "Conta de E-mail"
+
+#: massmail/models/email_account.py:16
+msgid "Email Accounts"
+msgstr "Contas de E-mail"
+
+#: massmail/models/email_account.py:20
+msgid "The name of the Email Account. For example Gmail"
+msgstr "O nome da conta de e-mail. Por exemplo, Gmail"
+
+#: massmail/models/email_account.py:24
+msgid "Use this account for regular business correspondence."
+msgstr "Utilize esta conta para a correspondência comercial regular."
+
+#: massmail/models/email_account.py:28
+msgid "Allow to use this account for massmail."
+msgstr "Permitir o uso desta conta para envio em massa."
+
+#: massmail/models/email_account.py:32
+msgid "Import emails from this account."
+msgstr "Importar e-mails desta conta."
+
+#: massmail/models/email_account.py:40
+msgid "The IMAP host"
+msgstr "O host IMAP"
+
+#: massmail/models/email_account.py:44
+msgid "The username to use to authenticate to the SMTP server."
+msgstr "O nome de usuário a ser utilizado para autenticação no servidor SMTP."
+
+#: massmail/models/email_account.py:48
+msgid "The auth_password to use to authenticate to the SMTP server."
+msgstr ""
+"A senha de autenticação a ser utilizada para se conectar ao servidor SMTP."
+
+#: massmail/models/email_account.py:52
+msgid "The application password to use to authenticate to the SMTP server."
+msgstr "A senha do aplicativo a ser usada para autenticar no servidor SMTP."
+
+#: massmail/models/email_account.py:56
+msgid "Port to use for the SMTP server"
+msgstr "Porta a ser utilizada para o servidor SMTP"
+
+#: massmail/models/email_account.py:60
+msgid "The from_email field."
+msgstr "O campo de_email."
+
+#: massmail/models/email_account.py:68
+msgid ""
+"If EMAIL_USE_SSL or EMAIL_USE_TLS is True, you can optionally specify"
+"         the path to a PEM-formatted certificate chain file to use for the "
+"SSL connection."
+msgstr ""
+"Se EMAIL_USE_SSL ou EMAIL_USE_TLS for verdadeiro, você pode opcionalmente "
+"especificar o caminho para um arquivo de cadeia de certificados no formato "
+"PEM a ser usado na conexão SSL."
+
+#: massmail/models/email_account.py:73
+msgid ""
+"If EMAIL_USE_SSL or EMAIL_USE_TLS is True, you can optionally specify"
+"         the path to a PEM-formatted private key file to use for the SSL "
+"connection."
+msgstr ""
+"Se EMAIL_USE_SSL ou EMAIL_USE_TLS for verdadeiro, você pode opcionalmente "
+"especificar o caminho para um arquivo de chave privada no formato PEM a ser "
+"usado na conexão SSL."
+
+#: massmail/models/email_account.py:79
+msgid "OAuth 2.0 token for obtaining an access token."
+msgstr "Token OAuth 2.0 para obter um token de acesso."
+
+#: massmail/models/email_account.py:106
+msgid "DateTime of last import"
+msgstr "Data e hora da última importação"
+
+#: massmail/models/email_account.py:117
+msgid "Specify the imap host"
+msgstr "Especifique o host IMAP"
+
+#: massmail/models/email_message.py:15
+msgid "Email Message"
+msgstr "Mensagem de E-mail"
+
+#: massmail/models/email_message.py:16
+msgid "Email Messages"
+msgstr "Mensagens de Email"
+
+#: massmail/models/eml_accounts_queue.py:19
+msgid "The queue of the user email accounts."
+msgstr "Fila de contas de e-mail do usuário."
+
+#: massmail/models/mailing_out.py:12
+msgid "Mailing Out"
+msgstr "Envio em massa"
+
+#: massmail/models/mailing_out.py:13
+msgid "Mailing Outs"
+msgstr "Enviar por correio"
+
+#: massmail/models/mailing_out.py:23
+msgid "Active but Error"
+msgstr "Ativa mas com Erros"
+
+#: massmail/models/mailing_out.py:24 massmail/utils/adminfilters.py:12
+msgid "Paused"
+msgstr "Pausada"
+
+#: massmail/models/mailing_out.py:25 massmail/utils/adminfilters.py:13
+msgid "Interrupted"
+msgstr "Interrompido"
+
+#: massmail/models/mailing_out.py:26 massmail/utils/adminfilters.py:14
+#: tasks/models/stagebase.py:19 tasks/models/task.py:93
+msgid "Done"
+msgstr "Concluído"
+
+#: massmail/models/mailing_out.py:31
+msgid "The name of the message."
+msgstr "Nome da mensagem."
+
+#: massmail/models/mailing_out.py:45 massmail/site/mailingoutadmin.py:35
+msgid "Number of recipients"
+msgstr "Número de destinatários"
+
+#: massmail/models/mailing_out.py:55
+msgid "Recipients type"
+msgstr "Tipo de destinatários"
+
+#: massmail/models/mailing_out.py:59
+msgid "Report"
+msgstr "Relatório"
+
+#: massmail/models/signature.py:14
+msgid "Signatures"
+msgstr "Assinaturas"
+
+#: massmail/models/signature.py:24
+msgid "The name of the signature."
+msgstr "Nome da assinatura."
+
+#: massmail/models/to_translate.txt:3
+msgid "price proposal"
+msgstr "proposta de preço"
+
+#: massmail/site/emlmessageadmin.py:66 massmail/site/signatureadmin.py:48
+#: massmail/templates/admin/massmail/mailingout/change_form_object_tools.html:6
+msgid "Preview"
+msgstr "Visualização prévia"
+
+#: massmail/site/emlmessageadmin.py:71
+msgid "Edit"
+msgstr "Editar"
+
+#: massmail/site/mailingoutadmin.py:21
+msgid "Available Email accounts for MassMail"
+msgstr "Contas de e-mail disponíveis para Envio em Massa"
+
+#: massmail/site/mailingoutadmin.py:22
+msgid "Accounts"
+msgstr "Contas"
+
+#: massmail/site/mailingoutadmin.py:25
+msgid "Recipient<br>type"
+msgstr "Tipo de<br>destinatário"
+
+#: massmail/site/mailingoutadmin.py:26
+msgid "You do not have an email account available for massmaling."
+msgstr "Você não tem uma conta de e-mail disponível para envio em massa."
+
+#: massmail/site/mailingoutadmin.py:27
+msgid ""
+"The address for redirecting unsubscribed recipients is not specified. "
+"Contact the administrator."
+msgstr ""
+"O endereço para redirecionamento de destinatários cancelados não foi "
+"especificado. Entre em contato com o administrador."
+
+#: massmail/site/mailingoutadmin.py:29
+msgid ""
+"You have one Email account with Mailing enabled. As the main account, it can"
+" only send emails to VIP recipients."
+msgstr ""
+"Você tem uma conta de e-mail com o Mailing habilitado. Como conta principal,"
+" ela só pode enviar e-mails para destinatários VIP."
+
+#: massmail/site/mailingoutadmin.py:36
+msgid "Today"
+msgstr "Hoje"
+
+#: massmail/site/mailingoutadmin.py:37
+msgid "Sent today"
+msgstr "Enviado hoje"
+
+#: massmail/site/mailingoutadmin.py:176
+msgid "Exclude recipients"
+msgstr "Excluir destinatários"
+
+#: massmail/site/mailingoutadmin.py:178
+msgid "Exclude recipients who have already received this message."
+msgstr "Exclua destinatários que já receberam esta mensagem."
+
+#: massmail/site/mailingoutadmin.py:197
+msgid "notification"
+msgstr "notificação"
+
+#: massmail/templates/admin/massmail/emailaccount/change_form_object_tools.html:4
+msgid "Get or update a refresh token"
+msgstr "Obter ou atualizar um token de atualização"
+
+#: massmail/templates/admin/massmail/emlmessage/change_form_object_tools.html:5
+msgid "Send a test"
+msgstr "Enviar teste"
+
+#: massmail/templates/admin/massmail/emlmessage/change_form_object_tools.html:11
+msgid "Copy message"
+msgstr "Copiar mensagem"
+
+#: massmail/templates/admin/massmail/mailingout/change_form_object_tools.html:13
+msgid "Successful recipients"
+msgstr "Destinatários bem-sucedidos"
+
+#: massmail/templates/admin/massmail/mailingout/change_form_object_tools.html:20
+msgid "Failed recipients"
+msgstr "Destinatários com falha"
+
+#: massmail/templates/admin/massmail/mailingout/change_form_object_tools.html:25
+msgid "Send failed recipients"
+msgstr "Reenviar para destinatários falhos"
+
+#: massmail/templates/massmail/pic_upload.html:7
+msgid "Upload the image file to the CRM server"
+msgstr "Enviar o arquivo de imagem para o servidor do CRM"
+
+#: massmail/templates/massmail/pic_upload.html:15
+msgid "Please select an image file to upload."
+msgstr "Por favor, selecione um arquivo de imagem para fazer o upload."
+
+#: massmail/templates/massmail/pic_upload.html:36
+msgid "To specify the address of the uploaded file, use the tag -"
+msgstr "Para especificar o endereço do arquivo carregado, utilize a tag -"
+
+#: massmail/templates/massmail/pic_upload.html:37
+msgid ""
+"Upload only files that will be used many times. For example, a company logo."
+msgstr ""
+"Carregue apenas os arquivos que serão usados várias vezes. Por exemplo, um "
+"logotipo de empresa."
+
+#: massmail/templates/massmail/pic_upload_buttons.html:3
+msgid "View the uploaded images on the CRM server"
+msgstr "Visualizar as imagens carregadas no servidor do CRM"
+
+#: massmail/templates/massmail/pic_upload_buttons.html:6
+msgid "Upload an image file to the CRM server"
+msgstr "Carregue um arquivo de imagem para o servidor do CRM."
+
+#: massmail/templates/massmail/show_uploaded_images.html:7
+#: massmail/templates/massmail/show_uploaded_images.html:15
+msgid "Uploaded images"
+msgstr "Imagens carregadas"
+
+#: massmail/utils/sendmassmail.py:342
+msgid "Done successfully."
+msgstr "Feito com sucesso."
+
+#: massmail/views/exclude.py:42
+msgid "Number of excluded recipients: {}."
+msgstr "Número de destinatários excluídos: {}."
+
+#: massmail/views/file_upload.py:9
+msgid "Allowed file extensions: "
+msgstr "Extensões de arquivo permitidas:"
+
+#: massmail/views/get_oauth2_tokens.py:74
+msgid "Refresh token received successfully."
+msgstr "Token de atualização recebido com sucesso."
+
+#: massmail/views/get_oauth2_tokens.py:79
+msgid "Error: Failed to get authorization code."
+msgstr "Erro: Falha ao obter o código de autorização."
+
+#: massmail/views/select_recipient_type.py:30
+msgid "Use the 'Action' menu."
+msgstr "Use o menu \"Ação\"."
+
+#: massmail/views/select_recipient_type.py:39
+msgid "Please select the type of recipients"
+msgstr "Selecione o tipo de destinatário"
+
+#: massmail/views/send_failed_recipients.py:14
+msgid "Failed recipients has been returned to the massmail successfully."
+msgstr ""
+"Os destinatários falhos foram retornados com sucesso ao e-mail em massa."
+
+#: massmail/views/send_tests.py:49
+#, python-brace-format
+msgid "The Email test has been sent to {email_accounts}"
+msgstr "O teste de e-mail foi enviado para {email_accounts}"
+
+#: settings/apps.py:8
+msgid "Settings"
+msgstr "Configurações"
+
+#: settings/models.py:18
+msgid "Banned company name"
+msgstr "Nome da empresa banida"
+
+#: settings/models.py:19
+msgid "Banned company names"
+msgstr "Nomes de empresas banidos"
+
+#: settings/models.py:40 settings/models.py:41
+msgid "Massmail Settings"
+msgstr "Configurações do Massmail"
+
+#: settings/models.py:81
+msgid "Public email domain"
+msgstr "Domínio de e-mail público"
+
+#: settings/models.py:82
+msgid "Public email domains"
+msgstr "Domínios de e-mail públicos"
+
+#: settings/models.py:87
+msgid "Domain"
+msgstr "Domínio"
+
+#: settings/models.py:115 settings/models.py:116
+msgid "Reminder settings"
+msgstr "Configurações de lembretes"
+
+#: settings/models.py:121
+msgid "Check interval"
+msgstr "Intervalo de verificação"
+
+#: settings/models.py:123
+msgid "Specify the interval in seconds to check if it's time for a reminder."
+msgstr ""
+"Especifique o intervalo em segundos para verificar se é hora de um lembrete."
+
+#: settings/models.py:149
+msgid "Stop Phrase"
+msgstr "Frase de Parada"
+
+#: settings/models.py:150
+msgid "Stop Phrases"
+msgstr "Frases de Parada"
+
+#: settings/models.py:155
+msgid "Phrase"
+msgstr "Frase"
+
+#: settings/models.py:159
+msgid "Last occurrence date"
+msgstr "Data da última ocorrência"
+
+#: settings/models.py:160
+msgid "Date of last occurrence of the phrase"
+msgstr "Data da última ocorrência da frase"
+
+#: tasks/admin.py:69 tasks/admin.py:122 tasks/site/tasksbasemodeladmin.py:163
+msgid "Change responsible"
+msgstr "Alterar responsável"
+
+#: tasks/admin.py:76 tasks/admin.py:129 tasks/site/memoadmin.py:187
+#: tasks/site/tasksbasemodeladmin.py:171 tasks/site/tasksbasemodeladmin.py:212
+msgid "Change subscribers"
+msgstr "Alterar assinantes"
+
+#: tasks/apps.py:8 tasks/models/task.py:16
+#: tasks/templates/admin/tasks/project/change_form_object_tools.html:6
+msgid "Tasks"
+msgstr "Tarefas"
+
+#: tasks/forms.py:32
+msgid "Please specify a name"
+msgstr "Por favor, especifique um nome."
+
+#: tasks/forms.py:38
+msgid "Please specify a responsible"
+msgstr "Por favor, especifique o responsável."
+
+#: tasks/forms.py:48 tasks/forms.py:114
+msgid "Date should not be in the past."
+msgstr "A data não deve ser no passado."
+
+#: tasks/models/memo.py:13
+msgid "Memo"
+msgstr "Memorando"
+
+#: tasks/models/memo.py:14
+msgid "Memos"
+msgstr "Memorandos"
+
+#: tasks/models/memo.py:21 tasks/models/to_translate.txt:5
+#: tasks/site/memoadmin.py:46
+msgid "postponed"
+msgstr "adiado"
+
+#: tasks/models/memo.py:22 tasks/site/memoadmin.py:49
+msgid "reviewed"
+msgstr "revisado"
+
+#: tasks/models/memo.py:33
+msgid "to whom"
+msgstr "para quem"
+
+#: tasks/models/memo.py:41 tasks/models/task.py:15
+msgid "Task"
+msgstr "Tarefa"
+
+#: tasks/models/memo.py:49
+msgid "For what"
+msgstr "Para que"
+
+#: tasks/models/memo.py:57 tasks/models/project.py:9
+#: tasks/utils/admfilters.py:67
+msgid "Project"
+msgstr "Projeto"
+
+#: tasks/models/memo.py:72
+msgid "Сonclusion"
+msgstr "Conclusão"
+
+#: tasks/models/memo.py:76
+msgid "Draft"
+msgstr "Rascunho"
+
+#: tasks/models/memo.py:77
+msgid "Available only to the owner."
+msgstr "Disponível apenas para o proprietário."
+
+#: tasks/models/memo.py:81
+msgid "Notified"
+msgstr "Notificados"
+
+#: tasks/models/memo.py:82
+msgid "The recipient and subscribers are notified."
+msgstr "O destinatário e os assinantes são notificados."
+
+#: tasks/models/memo.py:92
+msgid "Review date"
+msgstr "Data de revisão"
+
+#: tasks/models/memo.py:104 tasks/models/taskbase.py:61
+#: tasks/site/memoadmin.py:472 tasks/site/tasksbasemodeladmin.py:508
+msgid "subscribers"
+msgstr "assinantes"
+
+#: tasks/models/memo.py:110 tasks/models/taskbase.py:67
+msgid "Notified subscribers"
+msgstr "Assinantes notificados"
+
+#: tasks/models/memo.py:123
+msgid "The office memo has been reviewed"
+msgstr "A nota de serviço foi revisada."
+
+#: tasks/models/project.py:10
+msgid "Projects"
+msgstr "Projetos"
+
+#: tasks/models/projectstage.py:9
+msgid "Project stage"
+msgstr "Estágio do projeto"
+
+#: tasks/models/projectstage.py:10
+msgid "Project stages"
+msgstr "Etapas do Projeto"
+
+#: tasks/models/projectstage.py:15
+msgid "Is the project active at this stage?"
+msgstr "O projeto está ativo nesta etapa?"
+
+#: tasks/models/resolution.py:9
+msgid "Resolution"
+msgstr "Resolução"
+
+#: tasks/models/resolution.py:10
+msgid "Resolutions"
+msgstr "Resoluções"
+
+#: tasks/models/stagebase.py:20
+msgid "Mark if this stage is \"done\""
+msgstr "Marque se esta etapa está \"Concluída\""
+
+#: tasks/models/stagebase.py:24 tasks/models/to_translate.txt:3
+msgid "In progress"
+msgstr "Em andamento"
+
+#: tasks/models/stagebase.py:25
+msgid "Mark if this stage is \"in progress\""
+msgstr "Marque se esta etapa está \"em andamento\""
+
+#: tasks/models/tag.py:17
+msgid "Tag for"
+msgstr "Etiqueta para"
+
+#: tasks/models/task.py:24
+msgid "task"
+msgstr "tarefa"
+
+#: tasks/models/task.py:32
+msgid "project"
+msgstr "projeto"
+
+#: tasks/models/task.py:39
+msgid "Hide main task"
+msgstr "Ocultar tarefa principal"
+
+#: tasks/models/task.py:40
+msgid "Hide the main task when this sub-task is closed."
+msgstr "Ocultar a tarefa principal quando esta subtarefa for fechada."
+
+#: tasks/models/task.py:46 tasks/site/taskadmin.py:353
+#: tasks/site/taskadmin.py:359
+msgid "Lead time"
+msgstr "Tempo de processamento"
+
+#: tasks/models/task.py:47
+msgid "Task execution time in format - DD HH:MM:SS"
+msgstr "Tempo de execução da tarefa no formato - DD HH:MM:SS"
+
+#: tasks/models/task.py:64
+msgid "The task cannot be closed because there is an active subtask."
+msgstr "A tarefa não pode ser fechada porque há uma subtarefa ativa."
+
+#: tasks/models/task.py:92
+msgid "The main task is closed automatically."
+msgstr "A tarefa principal é fechada automaticamente."
+
+#: tasks/models/taskbase.py:20 tasks/site/tasksbasemodeladmin.py:494
+msgid "Low"
+msgstr "Baixo"
+
+#: tasks/models/taskbase.py:21 tasks/site/tasksbasemodeladmin.py:495
+msgid "Middle"
+msgstr "Médio"
+
+#: tasks/models/taskbase.py:22 tasks/site/tasksbasemodeladmin.py:496
+msgid "High"
+msgstr "Alto"
+
+#: tasks/models/taskbase.py:33
+msgid "Short title"
+msgstr "Título curto"
+
+#: tasks/models/taskbase.py:42
+msgid "Start date"
+msgstr "Data de início"
+
+#: tasks/models/taskbase.py:44
+msgid "Date of task closing"
+msgstr "Data de encerramento da tarefa"
+
+#: tasks/models/taskbase.py:55
+msgid "Notified responsible"
+msgstr "Responsáveis notificados"
+
+#: tasks/models/taskstage.py:9
+msgid "Task stage"
+msgstr "Etapa da tarefa"
+
+#: tasks/models/taskstage.py:10
+msgid "Task stages"
+msgstr "Etapas da Tarefa"
+
+#: tasks/models/taskstage.py:15
+msgid "Is the task active at this stage?"
+msgstr "A tarefa está ativa nesta etapa?"
+
+#: tasks/models/to_translate.txt:4
+msgid "done"
+msgstr "concluído"
+
+#: tasks/models/to_translate.txt:6
+msgid "canceled"
+msgstr "cancelado"
+
+#: tasks/models/to_translate.txt:7
+msgid "to make a decision"
+msgstr "para tomar uma decisão"
+
+#: tasks/models/to_translate.txt:8
+msgid "payment of regular expenses"
+msgstr "pagamento de despesas regulares"
+
+#: tasks/models/to_translate.txt:9
+msgid "on approval"
+msgstr "em aprovação"
+
+#: tasks/models/to_translate.txt:10
+msgid "for consideration"
+msgstr "para consideração"
+
+#: tasks/models/to_translate.txt:11
+msgid "for information"
+msgstr "para informação"
+
+#: tasks/models/to_translate.txt:12
+msgid "for the record"
+msgstr "para registro"
+
+#: tasks/site/memoadmin.py:45
+msgid "overdue"
+msgstr "atrasado"
+
+#: tasks/site/memoadmin.py:48
+msgid "You are subscribed to a new office memo"
+msgstr "Você está inscrito em uma nova nota de escritório"
+
+#: tasks/site/memoadmin.py:50
+msgid "unreviewed"
+msgstr "não revisada"
+
+#: tasks/site/memoadmin.py:51
+msgid "The office memo was written"
+msgstr "A nota de serviço foi escrita"
+
+#: tasks/site/memoadmin.py:52
+msgid "You've received a office memo"
+msgstr "Você recebeu um memorando interno"
+
+#: tasks/site/memoadmin.py:120
+msgid "Your office memo has been deleted"
+msgstr "A sua nota de escritório foi excluída."
+
+#: tasks/site/memoadmin.py:396
+#: tasks/templates/admin/tasks/memo/change_form_object_tools.html:14
+msgid "View the task"
+msgstr "Visualizar a tarefa"
+
+#: tasks/site/memoadmin.py:400
+#: tasks/templates/admin/tasks/memo/change_form_object_tools.html:21
+#: tasks/templates/admin/tasks/task/change_form_object_tools.html:14
+msgid "View the project"
+msgstr "Visualizar o projeto"
+
+#: tasks/site/memoadmin.py:485
+msgid "View the "
+msgstr "Visualizar o"
+
+#: tasks/site/projectadmin.py:17
+msgid "Acquainted with the project"
+msgstr "Familiarizar-se com o projeto"
+
+#: tasks/site/projectadmin.py:18
+msgid "The project was created"
+msgstr "O projeto foi criado"
+
+#: tasks/site/taskadmin.py:36
+msgid "I completed my part of the task"
+msgstr "Eu completei a minha parte da tarefa."
+
+#: tasks/site/taskadmin.py:37 tasks/site/tasksbasemodeladmin.py:47
+msgid "The task was created"
+msgstr "A tarefa foi criada"
+
+#: tasks/site/taskadmin.py:38
+msgid "The subtask was created"
+msgstr "A subtarefa foi criada"
+
+#: tasks/site/taskadmin.py:39
+msgid "The subtask"
+msgstr "Subtarefa"
+
+#: tasks/site/taskadmin.py:249
+msgid "later than due date of parent task."
+msgstr "após a data de vencimento da tarefa principal."
+
+#: tasks/site/taskadmin.py:341
+msgid "Main task"
+msgstr "Tarefa principal"
+
+#: tasks/site/taskadmin.py:368 tasks/site/taskadmin.py:369
+#: tasks/templates/admin/tasks/task/change_form_object_tools.html:6
+#: tasks/templates/admin/tasks/task/submit_line.html:6
+msgid "Create subtask"
+msgstr "Criar subtarefa"
+
+#: tasks/site/taskadmin.py:379
+#| msgid ""
+#| "This is a collective task.\n"
+#| "            Please create a sub-task for yourself for work.\n"
+#| "            Or press the next button when you have done your job.\n"
+#| "        "
+msgid ""
+"This is a team task.\n"
+"            Please create a sub-task for yourself for work.\n"
+"            Or press the next button when you have done your job.\n"
+"        "
+msgstr ""
+"Esta é uma tarefa em equipe.\n"
+"Crie uma subtarefa para si mesmo(a) para realizar seu trabalho.\n"
+"Ou clique no botão \"Próximo\" quando terminar sua tarefa."
+
+#: tasks/site/tasksbasemodeladmin.py:44
+msgid "You have been assigned as the task co-owner"
+msgstr "Você foi designado como co-proprietário da tarefa."
+
+#: tasks/site/tasksbasemodeladmin.py:46
+msgid "Acquainted with the task"
+msgstr "Familiarizar-se com a tarefa"
+
+#: tasks/site/tasksbasemodeladmin.py:48
+#: tasks/views/create_completed_subtask.py:78 tasks/views/task_completed.py:30
+msgid "The task is closed"
+msgstr "A tarefa está fechada."
+
+#: tasks/site/tasksbasemodeladmin.py:49
+msgid "The subtask is closed"
+msgstr "A subtarefa está fechada"
+
+#: tasks/site/tasksbasemodeladmin.py:50
+msgid "The next step date should not be later than due date."
+msgstr "A data do próximo passo não deve ser posterior à data de vencimento."
+
+#: tasks/site/tasksbasemodeladmin.py:53
+msgid "The Project was created"
+msgstr "O Projeto foi criado"
+
+#: tasks/site/tasksbasemodeladmin.py:54
+msgid "The project is closed"
+msgstr "O projeto está encerrado"
+
+#: tasks/site/tasksbasemodeladmin.py:57
+msgid "You are subscribed to a new task"
+msgstr "Você está inscrito em uma nova tarefa"
+
+#: tasks/site/tasksbasemodeladmin.py:58
+msgid "You have a new task assigned"
+msgstr "Você tem uma nova tarefa atribuída."
+
+#: tasks/site/tasksbasemodeladmin.py:483
+msgid ""
+"Please edit the title and description to make it clear to other users what "
+"part of the overall task will be completed."
+msgstr ""
+"Por favor, edite o título e a descrição para deixar claro para outros "
+"usuários qual parte da tarefa geral será concluída."
+
+#: tasks/site/tasksbasemodeladmin.py:502
+msgid "responsible"
+msgstr "responsáveis"
+
+#: tasks/site/tasksbasemodeladmin.py:536
+msgid "Attach files"
+msgstr "Anexar arquivos"
+
+#: tasks/templates/admin/tasks/memo/submit_line.html:5
+#: tasks/templates/admin/tasks/project/submit_line.html:6
+msgid "Create task"
+msgstr "Criar tarefa"
+
+#: tasks/templates/admin/tasks/memo/submit_line.html:6
+#: tasks/templates/admin/tasks/task/submit_line.html:9
+msgid "Create project"
+msgstr "Criar projeto"
+
+#: tasks/templates/admin/tasks/task/change_form_object_tools.html:21
+msgid "View main task"
+msgstr "Visualizar tarefa principal"
+
+#: tasks/templates/admin/tasks/task/change_form_object_tools.html:28
+msgid "Subtasks"
+msgstr "Subtarefas"
+
+#: tasks/templates/admin/tasks/task/submit_line.html:4
+msgid "Mark the task as completed and save."
+msgstr "Marcar a tarefa como concluída e salvar."
+
+#: tasks/views/create_completed_subtask.py:43
+msgid ""
+"The task cannot be marked as completed because you have an active subtask."
+msgstr ""
+"A tarefa não pode ser marcada como concluída porque você tem uma subtarefa "
+"ativa."
+
+#: tasks/views/create_completed_subtask.py:70 tasks/views/task_completed.py:23
+msgid "The Task does not exist"
+msgstr "A Tarefa não existe"
+
+#: tasks/views/create_completed_subtask.py:74 tasks/views/task_completed.py:27
+msgid "The user does not exist"
+msgstr "O usuário não existe"
+
+#: tasks/views/create_completed_subtask.py:119
+msgid ""
+"An error occurred while creating the subtask. Contact the CRM Administrator."
+msgstr ""
+"Ocorreu um erro ao criar a subtarefa. Entre em contato com o administrador "
+"do CRM."
+
+#: templates/admin/auth/group/change_list_object_tools.html:12
+msgid "Creates a copy of the department"
+msgstr "Cria uma cópia do departamento"
+
+#: templates/admin/auth/group/change_list_object_tools.html:13
+msgid "Copy department"
+msgstr "Cópia do departamento"
+
+#: templates/admin/auth/user/change_list_object_tools.html:12
+msgid "Transfer of a manager to another department"
+msgstr "Transferência de um gerente para outro departamento"
+
+#: templates/admin/auth/user/change_list_object_tools.html:13
+msgid "Transfer of a manager"
+msgstr "Transferir gerente"
+
+#: templates/admin/base.html:50
+msgid "Skip to main content"
+msgstr "Ir para o conteúdo principal"
+
+#: templates/admin/base.html:65
+msgid "Welcome,"
+msgstr "Bem-vindo!"
+
+#: templates/admin/base.html:70
+msgid "View site"
+msgstr "Ver no site"
+
+#: templates/admin/base.html:75
+msgid "Documentation"
+msgstr "Documentação"
+
+#: templates/admin/base.html:79
+msgid "Change password"
+msgstr "Alterar senha"
+
+#: templates/admin/base.html:83
+msgid "Log out"
+msgstr "Sair"
+
+#: templates/admin/base.html:98
+msgid "Breadcrumbs"
+msgstr "Rastreador de navegação"
+
+#: templates/admin/color_theme_toggle.html:3
+msgid "Toggle theme (current theme: auto)"
+msgstr "Alternar tema (tema atual: automático)"
+
+#: templates/admin/color_theme_toggle.html:4
+msgid "Toggle theme (current theme: light)"
+msgstr "Alternar tema (tema atual: claro)"
+
+#: templates/admin/color_theme_toggle.html:5
+msgid "Toggle theme (current theme: dark)"
+msgstr "Alternar tema (tema atual: escuro)"
+
+#. Translators: Specify dates of date range
+#: templates/admin/crm_date_filter.html:18
+msgid "Specify dates"
+msgstr "Especifique as datas"
+
+#. Translators: Start of date range
+#: templates/admin/crm_date_filter.html:23
+msgid "from"
+msgstr "de"
+
+#. Translators: End of date range
+#: templates/admin/crm_date_filter.html:29
+msgid "before"
+msgstr "antes"
+
+#. Translators: Year-Month Day
+#: templates/admin/crm_date_filter.html:33
+msgid "YYYY-MM-DD"
+msgstr "AAAA-MM-DD"
+
+#: templates/crm_help_link.html:3
+msgid "Help"
+msgstr "Ajuda"
+
+#: tests/massmail/utils/test_send_massmail.py:124
+msgid "This field is required."
+msgstr "Este campo é obrigatório."
+
+#: voip/models.py:9
+msgid "PBX extension"
+msgstr "Extensão de PABX"
+
+#: voip/models.py:10
+msgid "SIP connection"
+msgstr "Conexão SIP"
+
+#: voip/models.py:11
+msgid "Virtual phone number"
+msgstr "Número de telefone virtual"
+
+#: voip/models.py:29
+msgid "Number"
+msgstr "Número"
+
+#: voip/models.py:33
+msgid "Caller ID"
+msgstr "Identificador de Chamadas"
+
+#: voip/models.py:35
+msgid ""
+"Specify the number to be displayed as             your phone number when you"
+" call"
+msgstr ""
+"Especifique o número que será exibido como seu número de telefone ao "
+"realizar uma chamada."
+
+#: voip/models.py:42
+msgid "Provider"
+msgstr "Fornecedor"
+
+#: voip/models.py:43
+msgid "Specify VoIP service provider"
+msgstr "Especifique o provedor de serviço VoIP"
+
+#: voip/templates/voip/connection.html:10
+msgid "Please select what's your phone number, caller display"
+msgstr ""
+"Por favor, selecione qual é o seu número de telefone que será exibido no "
+"identificador de chamadas."
+
+#: voip/views/callback.py:21
+msgid ""
+"You do not have a VoiP connection configured. Please contact your "
+"administrator."
+msgstr ""
+"Você não possui uma conexão VoIP configurada. Entre em contato com o "
+"administrador, por favor."
+
+#: voip/views/callback.py:88
+msgid "That something is wrong ((. Notify the administrator."
+msgstr "Algo está errado ((. Notifique o administrador."
+
+#: voip/views/callback.py:90
+msgid "Expect a call to your smartphone"
+msgstr "Espere uma chamada no seu smartphone"
+
+#: voip/views/voipwebhook.py:44
+msgid "An outgoing call to"
+msgstr "Uma chamada de saída para"
+
+#: voip/views/voipwebhook.py:53
+msgid "An incoming call from"
+msgstr "Uma chamada de entrada de"
+
+#: voip/views/voipwebhook.py:70
+#, python-brace-format
+msgid "(duration: {duration} minutes)"
+msgstr "(duração: {duration} minutos)"
+
+#: webcrm/settings.py:275
+msgid "Untitled"
+msgstr "Sem título"
+
+#: webcrm/settings.py:289
+msgid "Main Menu"
+msgstr "Menu Principal"
+
+#~ msgid "Chart"
+#~ msgstr "Gráfico"
+
+#~ msgid "The percentages show the number of \"lost\" deals at each stage."
+#~ msgstr "Os porcentos mostram o número de negócios \"perdidos\" em cada etapa."
+
+#~ msgid "Toggle default deal sorting"
+#~ msgstr "Alternar a classificação padrão dos negócios"
+
+#~ msgid "Toggle default task sorting"
+#~ msgstr "Alternar a classificação padrão das tarefas"
+
+#~ msgid "First select a department."
+#~ msgstr "Primeiro, selecione um departamento."
+
+#~ msgid ""
+#~ "Note massmail is not performed on the following days: \n"
+#~ "                        Friday, Saturday, Sunday."
+#~ msgstr ""
+#~ "Observação: a envio em massa de e-mails não é realizado nos seguintes dias: "
+#~ "sexta-feira, sábado e domingo."
+
+#~ msgid ""
+#~ "\n"
+#~ "    Use HTML. To specify the address of the embedded image, use {% cid_media ‘path/to/pic.png' %}.<br>\n"
+#~ "    You can embed files uploaded to the CRM server in the ‘media/pics/’ folder or attached to this message.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "Use HTML. Para especificar o endereço da imagem incorporada, use {% cid_media ‘path/to/pic.png' %}.<br>\n"
+#~ "Você pode incorporar arquivos enviados para o servidor CRM na pasta ‘media/pics/’ ou anexados a esta mensagem."
+
+#~ msgid ""
+#~ "Note massmail is not performed on the following days: \n"
+#~ "                Friday, Saturday, Sunday."
+#~ msgstr ""
+#~ "Observação: o envio em massa de e-mails não é realizado nos seguintes dias: "
+#~ "sexta-feira, sábado e domingo."

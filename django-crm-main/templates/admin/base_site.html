@@ -1,0 +1,19 @@
+{% extends "admin/base.html" %}{% load static %}
+
+{% block title %}
+    {% if subtitle %}{{ subtitle }} | {% endif %}
+    {# CRM: add prefix "A:"  for admin page title #}
+    {% if "admin" in request.META.PATH_INFO %}A: {% endif %}
+    {{ title }} | {{ site_title }}
+{% endblock %}
+
+{% block branding %}
+<div id="site-name"><a href="{% url 'admin:index' %}">
+    {# CRM: add Django-CRM Logo #}
+    <img src="{% static 'common/django-crm_logo_24px.svg' %}" alt="Django-CRM Logo" style="vertical-align: sub;"> {{ site_header }}</a></div>
+{% if user.is_anonymous %}
+  {% include "admin/color_theme_toggle.html" %}
+{% endif %}
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
